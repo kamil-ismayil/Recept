@@ -1,0 +1,4 @@
+.navmain{
+    display: flex;
+    flex-direction: row;
+}
