@@ -2,13 +2,12 @@ import React, {useContext, useEffect, useState} from 'react';
 import { Redirect } from 'react-router-dom';
 import Layout from '../../Hoc/Layout/Layout';
 
-const startpage = React.memo( (props) => {
-
-    return (
+const mainpage = (props) => {
+    return(
         <div>
-            <p>Här ska vara recepter, login, favoritter</p>
-        </div>
+            
+        </div>    
     )
-})
+};
 
-export default startpage; 
+export default mainpage; 

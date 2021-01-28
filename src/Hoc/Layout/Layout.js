@@ -10,10 +10,10 @@ const layout = (props) => {
     return (
         <Aux>
             <Header/>
-            
+    
             <div className="navmain">
                 <NavigationItems />
-                <Mainpage/>
+                
             </div>
         </Aux>
     );

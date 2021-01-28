@@ -2,22 +2,23 @@ import React, { Component } from "react";
 import "./App.css";
 import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Startpage from './Containers/StartPage/Startpage';
+import Recipes from './Containers/Recipes/Recipes';
+import Favorites from './Containers/Favorites/Favorites';
+import Login from './Containers/Login/Login';
+import NavigationItem from './Components/Navigation/NavigationItem/NavigationItem';
 
-class App extends Component {
-	render() {
+function App(){
 		return (
-			<div className="App">
-                <BrowserRouter>
-                <Switch>  
-                    <Route path="/" exact component={Startpage}/>    
-					<Route path="/recipes" exact component={Startpage}/>    
-					<Route path="/favorites" exact component={Startpage}/>    
-					<Route path="/login" exact component={Startpage}/>    
-                </Switch>
-                </BrowserRouter> 
-            </div>
+			<BrowserRouter>
+				<Startpage />
+				<Switch>  	
+					<Route path="/recipes" exact component={Recipes}/>
+					<Route path="/favorites" exact component={Favorites}/>    
+					<Route path="/login" exact component={Login}/>        
+				</Switch>
+			</BrowserRouter> 
 		);
 	}
-}
+
 
 export default App;

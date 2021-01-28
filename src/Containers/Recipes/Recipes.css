@@ -1,0 +1,6 @@
+.recipes{
+    display: grid;
+    grid-gap: 10px;
+    margin: -4em 8em 8em 10em;
+    
+}
