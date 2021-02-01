@@ -1,12 +1,15 @@
 import React, {useContext, useEffect, useState} from 'react';
-import { Redirect } from 'react-router-dom';
+import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Layout from '../../Hoc/Layout/Layout';
+import './Mainpage.css'
 
 const mainpage = (props) => {
+    
     return(
-        <div>
-            <p>hej</p>
-        </div>    
+        <div className="mainpage">
+            <p>Start sida</p>        
+        </div>  
+          
     )
 };
 

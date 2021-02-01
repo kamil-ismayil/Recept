@@ -1,6 +1,5 @@
 .favorites{
     display: grid;
     grid-gap: 10px;
-    margin: -4em 8em 8em 10em;
-    
+    margin: 0em 15em;
 }

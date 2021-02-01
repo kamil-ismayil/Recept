@@ -2,15 +2,15 @@
   grid-column: 1/6;
   display: list-item;
   align-content: flex-start;
-  border-style: dotted;
   border-width: 3px;
-  height: 400px;
-  width: 50px;
+  height: 22em;
+  width: 150px;
   background-color:  rgb(185, 222, 253);
   color: rgb(12, 124, 100);
-  font-size: 12px;
+  font-size: 20px;
   list-style-position: outside;
   list-style-type: circle;
-  margin-top: 0px;
+  margin-top: 1px;
   margin-bottom: 0px;
+  position: absolute;
 }

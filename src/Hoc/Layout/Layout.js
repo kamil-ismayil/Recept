@@ -6,15 +6,15 @@ import Mainpage from '../../Containers/Mainpage/Mainpage';
 import Aux from '../Aux_/Aux_';
 
 const layout = (props) => {
-
+    
     return (
         <Aux>
             <Header/>
-    
+            
             <div className="navmain">
-                <NavigationItems />
-                
+                <NavigationItems />                
             </div>
+            
         </Aux>
     );
 }

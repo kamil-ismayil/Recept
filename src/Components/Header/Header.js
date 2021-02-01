@@ -6,8 +6,8 @@ const header = (props) => {
         <div className="header">
             <img class="hrow" src={require('../../Images/header.png')} />
             <div class="hrow" style={{width: "70%"}}>
-            <p style={{fontSize: 28}}>Välkommen till Recepies!</p> 
-            <p>Username60</p>
+                <p style={{fontSize: 28}}>Välkommen till Recepies!</p> 
+                <p>Username60</p>
             </div>
             
         </div>

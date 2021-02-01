@@ -1,11 +1,5 @@
 .recipes{
-    grid-column: 2/6;
     display: grid;
-    grid-template-areas: 12;
-    grid-gap: 5px;
-    margin: -4em 8em 8em 10em;
-    height: 500px;
-    width: 100%;
-    margin-left: 150px;
-    
+    grid-gap: 10px;
+    margin: 0em 15em;
 }
