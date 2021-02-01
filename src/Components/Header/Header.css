@@ -1,4 +1,23 @@
+.header {
+    display: flex;
+    align-content: center;
+}
+.header .hrow{
+    display: inline-block;
+}
+
 .header img{
-    width: 100%;
+    width: 30%;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.header p{
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.hrow {
     height: 150px;
+    background-color: rgb(185, 222, 253);
 }

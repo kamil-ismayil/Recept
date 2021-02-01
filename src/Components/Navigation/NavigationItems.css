@@ -1,0 +1,16 @@
+.NavigationItems {
+  grid-column: 1/6;
+  display: list-item;
+  align-content: flex-start;
+  border-style: dotted;
+  border-width: 3px;
+  height: 400px;
+  width: 50px;
+  background-color:  rgb(185, 222, 253);
+  color: rgb(12, 124, 100);
+  font-size: 12px;
+  list-style-position: outside;
+  list-style-type: circle;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

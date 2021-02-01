@@ -1,4 +1,7 @@
 .navmain{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
     flex-direction: row;
+    border-style: solid;
+    border-width: 1px;
 }

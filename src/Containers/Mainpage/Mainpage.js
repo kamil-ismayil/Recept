@@ -5,7 +5,7 @@ import Layout from '../../Hoc/Layout/Layout';
 const mainpage = (props) => {
     return(
         <div>
-            
+            <p>hej</p>
         </div>    
     )
 };
