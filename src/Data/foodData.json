@@ -7,7 +7,8 @@
   "method": [],
   "portion": [],
   "duration": "",
-  "serving": []
+  "serving": [],
+  "foodImg": []
 },
 
 {
@@ -19,7 +20,8 @@
   "method": [],
   "portion": [],
   "duration": "",
-  "serving": []
+  "serving": [],
+  "foodImg": []
 },
 
 {
@@ -31,5 +33,6 @@
   "method": [],
   "portion": [],
   "duration": "",
-  "serving": []
+  "serving": [],
+  "foodImg": []
 }]
