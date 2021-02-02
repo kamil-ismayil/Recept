@@ -1,38 +1,164 @@
-[{
-  "id": 1,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
-},
+[
+	{
+		"id": 1,
+		"foodType": "drink",
+		"name": "Pink gin med jordgubbar",
+		"description": "En mer somrig drink får man leta efter! Farligt god med en mjuk smak av gin och frisk smak av lemonad och jordgubbar.",
+		"ingredience": [
+			"15 cl Pink gin",
+			"15 cl citronsaft (Lemonad)",
+			"15 cl fruktsoda",
+			"3-4 droppe limesaft",
+			"iskuber",
+			"2-3 jordgubbar (eller andra bär)"
+		],
+		"method": [
+			"Hacka jordgubbarna och lägg i botten av ett glas.",
+			"Häll över isen och dropparna limesaft och sedan resten av drycken.",
+			"Servera direkt."
+		],
+		"portion": "1 portioner",
+		"duration": "",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id1.png",
+		"rating": 5
+	},
 
-{
-  "id": 2,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
-},
+	{
+		"id": 2,
+		"foodType": "drink",
+		"name": "Dry Martini, Mathin Lundgrens recept",
+		"description": "En klassiker som aldrig går ur tiden. ",
+		"ingredience": [
+			"5 cl gin (eller vodka)",
+			"2 cl torr vermouth",
+			" 1 droppe orange bitters"
+		],
+		"method": [
+			"Mät upp ingredienserna i ett rörglas.",
+			"Fyll rörglaset med is. Häll i ingredienserna.",
+			"Rör tills drinken har blivit riktigt kall. (Tips! Tänk på att olika typer av is kräver olika behandling. Med andra ord, smaka av för att känna av både temperatur och mängden vatten i drinken.)",
+			"Ta fram ett cocktailglas, gärna från frysen, och sila upp drinken.",
+			"Garnera med oliver och/eller zesten från en citron.",
+			"Servera och njut!"
+		],
+		"portion": "1 glas",
+		"duration": "",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id2.png",
+		"rating": 4
+	},
 
-{
-  "id": 3,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
-}]
+	{
+		"id": 3,
+		"foodType": "drink",
+		"name": "Tom Collins, David Kringlunds recept",
+		"description": "'Om jag skulle rekommendera att man lär sig en drink så blir det sannolikt en Tom Collins. Anledningen är att den smakar som en lemonad, vilket många uppskattar men också att man kan smaksätta den med vad man helst vill. Hallon, kaffe, ingefära eller fläder är alla smaker som går fint ihop med Tom Collins.' /David \nSå gör du sockerlag! \nKoka upp lika delar socker och vatten under konstant omrörning. När sockret har löst upp sig är lagen klar! Låt svalna innan användning.",
+		"ingredience": [
+			"5 cl gin",
+			"3 cl citronsaft",
+			"2 cl sockerlag (Se tips!)",
+			"kolsyrat vatten"
+		],
+		"method": [
+			"Skaka alla ingredienser utom bubbelvattnet",
+			"Sila upp i ett lämpligt glas med is",
+			"Toppa med bubbelvattnet",
+			"Garnera gärna med en bit citronskal"
+		],
+		"portion": "",
+		"duration": "5 min",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id3.png",
+		"rating": 5
+	},
+
+	{
+		"id": 4,
+		"foodType": "drink",
+		"name": "Sparkling hallonslush",
+		"description": "Mums - det här receptet är så enkelt och läskande gott! \n\nPerfekt till barnen en varm sommardag eller tillsätt lite citronvodka och ha som fördrink på festen.",
+		"ingredience": [
+			"2 dl frysta bär",
+			"2 dl is, krossad",
+			"2 dl bubbelvatten, gärna smaksatt"
+		],
+		"method": [
+			"Mixa de frysta bären i en mixer tillsammans med några droppar agavesirap och några droppar citron/ limejuice.",
+			"Häll upp i två glas, toppa med krossad is och smaksatt bubbelvatten. Toppa med några myntablad."
+		],
+		"portion": "2 portioner",
+		"duration": "5 min",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id4.png",
+		"rating": 5
+	},
+
+	{
+		"id": 5,
+		"foodType": "drink",
+		"name": "Alkoholfri mojito",
+		"description": "Använd drinkmix till en alkoholfri mojito som är minst lika god som den vanliga!",
+		"ingredience": [
+			"3 dl is, krossad",
+			"0,25 kruka mynta",
+			"1 limefrukt",
+			"4 dl mojito drinkmix (färdigblandad eller utspädd med sodavatten)"
+		],
+		"method": [
+			"Fördela isen i två glas. Mortla myntan och lägg ner i glasen.",
+			"Skölj och klyfta limen och pressa ner saften i glasen, lägg även ner klyftorna.",
+			"Häll över mojitomix eller sodavatten och servera på en gång!"
+		],
+		"portion": "2 glas",
+		"duration": "",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id5.png",
+		"rating": 4
+	},
+
+	{
+		"id": 6,
+		"foodType": "drink",
+		"name": "Alkoholfri drink med grape",
+		"description": "Vitt vin, tonic och grape blir en god och läskande alkoholfri fördrink till festen.",
+		"ingredience": [
+			"2 dl alkoholfritt vitt vin",
+			"3 dl tonic",
+			"några droppar grapefruktsaft"
+		],
+		"method": [
+			"Blanda vitt vin och tonic. Smaksätt med några droppar grapefruktjuice. Servera med grapeskivor, rosmarinkvistar och isbitar."
+		],
+		"portion": "2 glas",
+		"duration": "5 min",
+		"serving": ["2 skiva grapefrukt", "2 kvist rosmarin", "is, bitar"],
+		"foodImg": "./Images/DrinkImages/id6.png",
+		"rating": 5
+	},
+
+	{
+		"id": 7,
+		"foodType": "drink",
+		"name": "",
+		"description": "En alkoholfri tonicdrink med smak av gurka. Svalkande och gott varma sommardagar.",
+		"ingredience": [
+			"Gurksockerlag",
+			"1 dl råsaftncentrifugerad gurka (alt. mixad och silad)",
+			"1 dl strösocker",
+			"",
+			"Cucumber Tonic",
+			"2 cl gurksockerlag (se ovan)",
+			"20 cl Schweppes Pink Pepper Tonic Water"
+		],
+		"method": [
+			"Gurksockerlag \nMät upp 1 dl gurkjuice och 1 dl strösocker. Rör om tills dess att sockret har löst upp sig helt. Förvara svalt i en ren glasflaska.",
+			"Cucumber Tonic \nMät upp ingredienserna över is i ett stort vinglas."
+		],
+		"portion": "1 glas",
+		"duration": "15 min",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id7.png",
+		"rating": 5
+	}
+]

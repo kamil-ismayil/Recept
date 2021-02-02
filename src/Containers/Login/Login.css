@@ -37,3 +37,14 @@
     outline: none; 
     border-block-color: #ff2058;
   }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+  }
+
+  .bRow {
+    width: 100px;
+  }
