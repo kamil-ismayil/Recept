@@ -3,18 +3,18 @@ import './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = (props) =>(
-        <ul className="NavigationItems">
-            <NavigationItem link="/startpage">Start sida</NavigationItem>
+        <ul className="navigationItems">
+            <NavigationItem link="/startpage" cname="menu">Start sida</NavigationItem>
 
-            <NavigationItem link="/recepter">Recepter</NavigationItem>
+            <NavigationItem link="/recepter" cname="menu">Recepter</NavigationItem>
                 <ul>
-                    <NavigationItem link="/recepter/mat">Mat</NavigationItem>
-                    <NavigationItem link="/recepter/dryck">Dryck</NavigationItem>
-                    <NavigationItem link="/recepter/smoothie">Smoothie</NavigationItem>
-                    <NavigationItem link="/recepter/dessert">Dessert</NavigationItem>
-                    <NavigationItem link="/recepter/populara">Populära</NavigationItem>
+                    <NavigationItem link="/recepter/mat" cname="menu">Mat</NavigationItem>
+                    <NavigationItem link="/recepter/dryck" cname="menu">Dryck</NavigationItem>
+                    <NavigationItem link="/recepter/smoothie" cname="menu">Smoothie</NavigationItem>
+                    <NavigationItem link="/recepter/dessert" cname="menu">Dessert</NavigationItem>
+                    <NavigationItem link="/recepter/populara" cname="menu">Populära</NavigationItem>
                 </ul>
-            <NavigationItem link="/login">Login</NavigationItem>
+            <NavigationItem link="/login" cname="sidebar">Login</NavigationItem>
         </ul>
 );
 

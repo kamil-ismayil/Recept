@@ -1,16 +1,17 @@
-.NavigationItems {
+.navigationItems {
   grid-column: 1/6;
   display: list-item;
   align-content: flex-start;
   border-width: 3px;
-  height: 22em;
+  height: 450px;
   width: 150px;
-  background-color:  rgb(185, 222, 253);
-  color: rgb(12, 124, 100);
+  background-color:  rgb(236, 240, 243);
   font-size: 20px;
-  list-style-position: outside;
-  list-style-type: circle;
   margin-top: 1px;
   margin-bottom: 0px;
   position: absolute;
+}
+
+.navigationItems, ul{
+  list-style-type: none;
 }
