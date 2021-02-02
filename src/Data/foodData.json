@@ -1,0 +1,35 @@
+[{
+  "id": 1,
+  "foodType": "",
+  "name": "",
+  "description": "",
+  "ingredience": [],
+  "method": [],
+  "portion": [],
+  "duration": "",
+  "serving": []
+},
+
+{
+  "id": 2,
+  "foodType": "",
+  "name": "",
+  "description": "",
+  "ingredience": [],
+  "method": [],
+  "portion": [],
+  "duration": "",
+  "serving": []
+},
+
+{
+  "id": 3,
+  "foodType": "",
+  "name": "",
+  "description": "",
+  "ingredience": [],
+  "method": [],
+  "portion": [],
+  "duration": "",
+  "serving": []
+}]
