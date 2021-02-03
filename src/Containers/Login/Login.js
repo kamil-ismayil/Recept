@@ -1,19 +1,25 @@
-import React, { Component, useState } from 'react';
+import React, { useContext, useState } from 'react';
+import { Redirect } from 'react-router-dom';
+import {LoginContext} from '../../Context/login-context';
 import Mainpage from '../Mainpage/Mainpage';
 import './Login.css';
 
 const login = (props) => {
 
+    const loginContext = useContext(LoginContext);
     const [enteredUserName, setEnteredUserName] = useState('');
     const [enteredPassword, setEnteredPassword] = useState('');
 
     const loginHandler = (event) => {
-        
+        loginContext.login(enteredUserName, enteredPassword);
+        console.log("Login -> :" + JSON.stringify(loginContext.data));
         event.preventDefault();        
     }
     
     return (
         <section className="main-form">            
+            {loginContext.isLogged && <p>Logged in</p>}
+
             <form onSubmit={loginHandler} >                
                 <div className="login">
                     <h2>Please login to continue..</h2>
