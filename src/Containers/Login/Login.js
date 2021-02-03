@@ -5,7 +5,6 @@ import Mainpage from '../Mainpage/Mainpage';
 import './Login.css';
 
 const login = (props) => {
-
     const loginContext = useContext(LoginContext);
     const [enteredUserName, setEnteredUserName] = useState('');
     const [enteredPassword, setEnteredPassword] = useState('');
@@ -38,4 +37,4 @@ const login = (props) => {
     )
 }
 
-export default login; 
+export default login;
