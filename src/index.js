@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import LoginContextProvider from './Context/login-context';
+import ReadJsonContextProvider from './Context/readJson-context';
 
 ReactDOM.render(
     <LoginContextProvider>
-        <App/>, 
+        <ReadJsonContextProvider>
+            <App/>
+        </ReadJsonContextProvider>
     </LoginContextProvider>,
     document.getElementById('root'));
 registerServiceWorker();

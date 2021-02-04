@@ -18,9 +18,7 @@ const loginContextProvider = (props) => {
 
     const loginHandler = useCallback( (username, password) => {
         setUsername(username);
-        setPassword(password);
-            console.log("login-context -> loginhandler");
-            
+        setPassword(password);            
         readRequest( 'username_password', '');
     }, [data]); 
 

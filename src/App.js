@@ -7,6 +7,7 @@ import Favorites from './Containers/Favorites/Favorites';
 import Login from './Containers/Login/Login';
 import Mainpage from "./Containers/Mainpage/Mainpage";
 import Mat from './Containers/Mat/Mat';
+import Drink from './Containers/Drink/Drink';
 
 function App(){
 		return (
@@ -21,7 +22,7 @@ function App(){
 						<Route path="/login" exact component={Login}/>   
 						
 						<Route path="/recepter/mat" exact component={Mat}/>
-						<Route path="/recepter/dryck" exact component={Login}/>    
+						<Route path="/recepter/dryck" exact component={Drink}/>    
 						<Route path="/recepter/smoothie" exact component={Login}/>     
 						<Route path="/recepter/dessert" exact component={Login}/>    
 						<Route path="/recepter/populara" exact component={Login}/>        

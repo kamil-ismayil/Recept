@@ -11,7 +11,7 @@ const login = (props) => {
 
     const loginHandler = (event) => {
         loginContext.login(enteredUserName, enteredPassword);
-        console.log("Login -> :" + JSON.stringify(loginContext.data));
+        //console.log("Login -> :" + JSON.stringify(loginContext.data));
         event.preventDefault();        
     }
     

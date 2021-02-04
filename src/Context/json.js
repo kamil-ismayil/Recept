@@ -7,7 +7,8 @@ const initialState = {
 }
 
 let files = {
-    username_password: require('../Data/Json/username_password.json')
+    username_password: require('../Data/Json/username_password.json'),
+    drinkData: require('../Data/Json/drinkData.json')
 }
 
 const jsonReducer = (currJsonState, action) => {
@@ -32,8 +33,6 @@ const useJson = () => {
                 
         data!=null ? dispatchJsonState({type: 'READ', responseData: data}) 
                    : dispatchJsonState({type: 'ERROR', errorMessage: "Something wrong with the file"});
-                   
-        console.log("json.js -> useJson");
     }, []);
 
     return {
