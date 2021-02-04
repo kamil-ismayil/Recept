@@ -1,38 +1,238 @@
 [{
-  "id": 1,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 29,
+  "foodType":["popular", "dessert"],
+  "name": "Chokladglass med baileys och valnötskaramell",
+  "description": "Krämig chokladglass som enkelt görs utan glassmaskin. För att sätta en liten extra touch på glassen smaksätter Lotta den med Baileys och knäckig valnötskaramell.",
+  "ingredience": [
+  "Glass",
+"400 g mörk choklad (70%)",
+"5 dl grädde, vispad",
+"1 dl baileys",
+"2 msk strösocker",
+"0,25 tsk salt",
+"",
+"Valnötskaramell",
+"0,66 dl honung",
+"75 g valnötter"
+],
+  "method": [
+  "Smält chokladen i vattenbad. Blanda den smälta chokladen med vispad grädde, Baileys, socker och salt. Frys i minst 6 timmar.",
+"Gör karamellen: koka upp honungen i en tjockbottnad kastrull och låt bubbla tills honungen fått samma färg som ljus sirap. Ta från värmen, rör ner valnötterna och sprid ut på bakpappersklädd plåt eller bricka.",
+"Ställ svalt tills karamellen satt sig, ca 20 minuter. Lossa därefter från bakplåtspappret och hacka grovt.",
+"Fördela glassen i kylda glas eller små skålar. Slå över lite Baileys, en klick vispad grädde om du vill och toppa med valnötskaramellen."
+],
+  "portion": "10 portioner",
+  "duration": "30 min + tid i frys",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id8.png",
+  "rating": 5
+},
+ 
+{
+  "id": 30,
+  "foodType": ["popular", "dessert"],
+  "name": "Vit chokladterrin med sval hallonsås",
+  "description": "En krämig chokladterrin med sval hallonsås kommer göra sig riktigt fint som dessert. \n\nReceptet är från tv-programmet Halv åtta hos mig, och recepten därifrån är komponerade av amatörkockar. Köket.se kan därför inte gå i god för receptet.",
+  "ingredience": [
+  "Hallonsås",
+"1 förp hallon, frysta",
+"0,5-1 dl florsocker",
+"1-2 msk likör (cointreau)" ,
+"",
+"Chokladterrin",
+"2 msk rörsocker",
+"5 msk vatten",
+"300 g vit choklad (blockchoklad)",
+"3 ägg, separerade",
+"3 dl vispgrädde"
+  ],
+  "method": [
+  "Hallonsås \nTina hallonen och mosa ner dem i en skål genom en finmaskig sil. Blanda i florsocker och likör.",
+"Terrin \nKlä en brödform i folie och ställ åt sidan.",
+"Häll sockret och vattnet i en kastrull och värm försiktigt under omrörning tills sockret smält. Låt koka upp och koka i ca 1-2 minuter. Ta av kastrullen från plattan.",
+"Bryt chokladen i bitar och rör ner i sockerlagen, några bitar i taget. Rör om tills väl blandat.",
+"Vispa ner äggulorna i chokladsmeten. Låt blandningen kallna.",
+"Vispa grädden och vänd ner i den kalla smeten.",
+"Vispa äggvitorna i en ren skål till ett hårt skum. Vänd ner i chokladsmeten.",
+"Häll smeten i brödformen och stoppa in i frysen. (Helst över natten). Ta ut ur frysen 10-15 minuter innan servering."
+  ],
+  "portion": "4 portioner",
+  "duration": "1 timme + tid i frysen",
+  "serving": [],
+  "foodImg": "id13.png",
+  "rating": 5
+},
+ 
+{
+  "id": 31,
+  "foodType": ["popular", "food"],
+  "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
+  "description": "Det här en riktig favorit hemma hos Jennie. Tonkatsu - japansk schnitzel som serveras med Jennies specialsallad där spetskål, majonnäs och sesam möts i en fantastisk kombo.",
+  "ingredience": [
+  "Tonkatsu",
+"4 skiva skinkinnanlår, à 150 gr",
+"1,5 dl vetemjöl",
+"2 ägg, uppvispade (stora)",
+"3 dl pankoströbröd",
+"salt",
+"",
+"Krämig kålsallad",
+"0,5 spetskål",
+"3 msk majonnäs",
+"1 msk japansk soja",
+"2 tsk sesamolja",
+"1 tsk risvinäger",
+"0,5 tsk strösocker",
+"3 msk rostade sesamfrön",
+"",
+"Tonkatsusås",
+"1 dl ketchup",
+"2,5 msk worcestersås",
+"2 msk japansk soja",
+"1 msk honung",
+"neutral rapsolja, till stekning"
+],
+  "method": [
+  "Börja med att göra tonkatsusåsen. Blanda ketchup, worcestersås, soja samt honung väl. Smaka av och ställ åt sidan.",
+"Hyvla kålen tunt med en mandolin eller osthyvel. Lägg i iskallt vatten så den blir riktigt krispig, det tar minst 15-20 minuter. Låt sedan droppa av väl i durkslag.",
+"Medan kålen ligger i vattenbad, blanda ihop övriga ingredienser till kålsalladen till en dressing. Lägg den nu superkrispiga kålen på ett fat och ringla dressingen över. Ställ åt sidan.",
+"Banka ut skivorna med skinkinnanlår till tunna skivor, ca 5 mm.",
+"Salta och vänd dem i först mjöl, sen ägg och till sist pankoströbröd. Låt gärna ligga på ett galler några minuter efter att du har panerat dem.",
+"Hetta upp ca 1 cm olja i botten av en stekpanna. Stek tonkatsun tills de är gyllene och frasiga på båda sidor. Låt rinna av på galler eller hushållspapper.",
+"Skär upp i skivor och servera med tonkatsusås, dijonsenap, kålsallad och ris. Strö ev över sesamfrön. Ät gärna med pinnar!"
+  ],
+  "portion": "4 portioner",
+  "duration": "50 min",
+  "serving": [
+  "4 port japanskt ris, nykokt",
+"dijonsenap",
+"ev svarta sesamfrön"],
+  "foodImg": "id15.png",
+  "rating": 5
+},
+ 
+{
+  "id": 32,
+  "foodType": ["popular", "food"],
+  "name": "Omelett med morot",
+  "description": "\"Den här omeletten med morot är perfekt att svänga ihop som en snabb och enkel lunch! Morot är bra att alltid ha i kylen. Håller hur länge som helst!\" /Jessica Frej",
+  "ingredience": [
+  "3 morötter",
+"3 msk olivolja (att steka i)",
+"0,5 tsk salt",
+"0,5 tsk svartpeppar",
+"6 ägg",
+"1 dl vispgrädde",
+"0,5 tsk salt",
+"1 dl ost, riven",
+"0,5 förp rucolasallad"
+  ],
+  "method": [
+  "Riv morötterna.",
+"Stek morötterna i olivolja med salt och svartpeppar.",
+"Vispa ihop ägg, grädde och salt.",
+"Häll blandningen över morötterna i pannan.",
+"Dra smeten in från kanterna lite grann hela tiden.",
+"När omeletten är fast så häll på ost och rucola och stjälp upp på ett fat."
+  ],
+  "portion": "2 portioner",
+  "duration": "15 min",
+  "serving": [],
+  "foodImg": "id18.png",
+  "rating": 5
+},
+ 
+{
+  "id": 33,
+  "foodType": ["popular", "drink"],
+  "name": "Pink gin med jordgubbar",
+		"description": "En mer somrig drink får man leta efter! Farligt god med en mjuk smak av gin och frisk smak av lemonad och jordgubbar.",
+		"ingredience": [
+			"15 cl Pink gin",
+			"15 cl citronsaft (Lemonad)",
+			"15 cl fruktsoda",
+			"3-4 droppe limesaft",
+			"iskuber",
+			"2-3 jordgubbar (eller andra bär)"
+		],
+		"method": [
+			"Hacka jordgubbarna och lägg i botten av ett glas.",
+			"Häll över isen och dropparna limesaft och sedan resten av drycken.",
+			"Servera direkt."
+		],
+		"portion": "1 portioner",
+		"duration": "",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id1.png",
+		"rating": 5
+	},
+ 
+{
+  "id": 34,
+  "foodType": ["popular", "drink"],
+  "name": "Sparkling hallonslush",
+		"description": "Mums - det här receptet är så enkelt och läskande gott! \n\nPerfekt till barnen en varm sommardag eller tillsätt lite citronvodka och ha som fördrink på festen.",
+		"ingredience": [
+			"2 dl frysta bär",
+			"2 dl is, krossad",
+			"2 dl bubbelvatten, gärna smaksatt"
+		],
+		"method": [
+			"Mixa de frysta bären i en mixer tillsammans med några droppar agavesirap och några droppar citron/ limejuice.",
+			"Häll upp i två glas, toppa med krossad is och smaksatt bubbelvatten. Toppa med några myntablad."
+		],
+		"portion": "2 portioner",
+		"duration": "5 min",
+		"serving": [],
+		"foodImg": "./Images/DrinkImages/id4.png",
+		"rating": 5
+	},
+ 
+{
+  "id": 35,
+  "foodType": ["popular", "smoothie"],
+  "name": "Jordgubbssmoothie",
+  "description": "En mättande och fräsch smoothie som passar utmärkt till frukost, mellanmål eller lyxig brunch.",
+  "ingredience": [
+  "1 dl Zeta 5 Gryner Ekologisk (ekologisk)",
+"4 dl frysta jordgubbar (ekologiska)",
+"ev 2 msk agavesirap",
+"1 avokado",
+"10 blad basilika",
+"1 l äppeljuice"
+  ],
+  "method": [
+  "Koka upp rikligt med vatten.",
+"Lägg i grynen, låt koka i 10 minuter och spola av grynen i ett durkslag under kallt vatten.",
+"Mixa ihop samtliga ingredienser i en blender.",
+"Klart att servera!"
+  ],
+  "portion": "4 portioner",
+  "duration": "20 min",
+  "serving": [],
+  "foodImg": "id23.png",
+  "rating": 5
 },
 
 {
-  "id": 2,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
+  "id": 36,
+  "foodType": ["popular", "smoothie"],
+  "name": "Smoothie med honung",
+  "description": "Ett bra mellanmål, en lyxig frukost - det finns alltid en bra anledning till att mixa ihop en smoothie. Ta det du har hemma. Här är en med yoghurt, glass och honung.",
+  "ingredience": [
+  "5 dl yoghurt",
+"1 dl standardmjölk",
+"1 vaniljglassskopa",
+"5 msk honung, flytande"
+  ],
+  "method": [
+  "Mixa samman alla ingredienser till en slät smootie.",
+"Servera omgående."
+  ],
+  "portion": "4 portioner",
   "duration": "",
   "serving": [],
-  "foodImg": ""
-},
-
-{
-  "id": 3,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
-}]
+  "foodImg": "id27.png",
+  "rating": 5
+}
+]

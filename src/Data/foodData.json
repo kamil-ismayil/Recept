@@ -1,38 +1,286 @@
 [{
-  "id": 1,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 15,
+  "foodType": "food",
+  "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
+  "description": "Det här en riktig favorit hemma hos Jennie. Tonkatsu - japansk schnitzel som serveras med Jennies specialsallad där spetskål, majonnäs och sesam möts i en fantastisk kombo.",
+  "ingredience": [
+  "Tonkatsu",
+"4 skiva skinkinnanlår, à 150 gr",
+"1,5 dl vetemjöl",
+"2 ägg, uppvispade (stora)",
+"3 dl pankoströbröd",
+"salt",
+"",
+"Krämig kålsallad",
+"0,5 spetskål",
+"3 msk majonnäs",
+"1 msk japansk soja",
+"2 tsk sesamolja",
+"1 tsk risvinäger",
+"0,5 tsk strösocker",
+"3 msk rostade sesamfrön",
+"",
+"Tonkatsusås",
+"1 dl ketchup",
+"2,5 msk worcestersås",
+"2 msk japansk soja",
+"1 msk honung",
+"neutral rapsolja, till stekning"
+],
+  "method": [
+  "Börja med att göra tonkatsusåsen. Blanda ketchup, worcestersås, soja samt honung väl. Smaka av och ställ åt sidan.",
+"Hyvla kålen tunt med en mandolin eller osthyvel. Lägg i iskallt vatten så den blir riktigt krispig, det tar minst 15-20 minuter. Låt sedan droppa av väl i durkslag.",
+"Medan kålen ligger i vattenbad, blanda ihop övriga ingredienser till kålsalladen till en dressing. Lägg den nu superkrispiga kålen på ett fat och ringla dressingen över. Ställ åt sidan.",
+"Banka ut skivorna med skinkinnanlår till tunna skivor, ca 5 mm.",
+"Salta och vänd dem i först mjöl, sen ägg och till sist pankoströbröd. Låt gärna ligga på ett galler några minuter efter att du har panerat dem.",
+"Hetta upp ca 1 cm olja i botten av en stekpanna. Stek tonkatsun tills de är gyllene och frasiga på båda sidor. Låt rinna av på galler eller hushållspapper.",
+"Skär upp i skivor och servera med tonkatsusås, dijonsenap, kålsallad och ris. Strö ev över sesamfrön. Ät gärna med pinnar!"
+  ],
+  "portion": "4 portioner",
+  "duration": "50 min",
+  "serving": [
+  "4 port japanskt ris, nykokt",
+"dijonsenap",
+"ev svarta sesamfrön"],
+  "foodImg": "id15.png",
+  "rating": 5
+},
+ 
+{
+  "id": 16,
+  "foodType": "food",
+  "name": "Chicken cashew",
+  "description": "Stekt kyckling med rostade cashewnötter - en riktig favorit från thai kiosken som går lätt att laga själv.",
+  "ingredience": [
+  "1,5 dl cashewnötter",
+"500 g kycklinglårfilé utan skinn",
+"1-2 msk röd currypasta",
+"4 msk neutral rapsolja",
+"2 gula lökar, strimlade",
+"2 klyfta vitlök, skivade",
+"1 msk färsk ingefära, finhackad",
+"1 röd paprika, strimlad",
+"1 gul paprika, strimlad",
+"1 dl ostronsås",
+"1 msk vitvinsvinäger",
+"65 g mangoldblad (eller färska spenatblad)"
+  ],
+  "method": [
+  "Koka riset tillsammans med bankat citrongräs enligt anvisning på förpackningen.",
+"Hetta upp en stekpanna eller wok och rosta nötterna snabbt i pannan. Häll av på ett fat och lägg åt sidan.",
+"Skär kycklingen i bitar och stek tillsammans med currypasta i olja.",
+"När kycklingen är genomstekt, hetta upp pannan rejält.",
+"Tillsätt lök, ingefära och paprika. Stek ca 3 minuter så de blir lite mjuka men fortfarande “tuggiga”.",
+"Tillsätt ostronsås och vinäger. Vänd in mangold och cashewnötter. Servera med riset.",
+"Glöm inte att matsortera skal från lök, paprika för en mer hållbar matlagning, och njut av din goda chicken cashew. /Köket-redaktionen"
+  ],
+  "portion": "4 portioner",
+  "duration": "30 min",
+  "serving": [
+  "Tillbehör",
+"4 port ris",
+"2 citrongräs"
+],
+  "foodImg": "id16.png",
+  "rating": 4
+},
+ 
+{
+  "id": 17,
+  "foodType": "food",
+  "name": "Lasagne de luxe",
+  "description": "\"En krämig och smakrik lasagne. Min hemlighet är att jag varvar alla lager med extra ost. Jag lovar att den kommer att göra succé! \"/Jenny",
+  "ingredience": [
+  "10-12 färska lasagneplattor",
+"600 g blandfärs",
+"smör, att steka i",
+"1 gul lök, riven",
+"2 klyfta vitlök",
+"400 g krossade tomater (eller passerade tomater)",
+"0,5 dl chilisås",
+"salt",
+"peppar",
+"olivolja, till formen",
+"3 dl mozzarellaost, riven",
+"färsk oregano, att garnera med",
+"",
+"Béchamelsås",
+"100 g smör",
+"1 dl vetemjöl",
+"4 dl standardmjölk",
+"5 dl vispgrädde",
+"0,25 krm muskot, riven",
+"salt",
+"peppar"
+  ],
+  "method": [
+  "Sätt ugnen på 200 grader. Hetta upp en stekpanna med smör och stek färs, lök och vitlök. Finfördela färsen och se till att den blir genomstekt.",
+"Blanda ner konserverade tomater, chilisås, salt och peppar. Låt alltsammans sjuda, medan du gör béchamelsåsen.",
+"Béchamelsås \nSmält smöret i en kastrull. Vispa ner mjölet, och tillsätt mjölk och grädde under fortsatt vispning så att det inte blir klumpar. Krydda med muskot, salt och peppar. Låt koka upp och sjuda i ett par minuter.",
+"Montering \nRingla lite olivolja i en ugnsform. Täck bottnen med béchamelsås och sedan med lasagneplattor. Varva sedan sås, köttfärsröra, riven ost och lasagneplattor ungefär tre gånger. Avsluta med sås och riven ost på toppen.",
+"Grädda lasagnen i 20 minuter, eller tills osten fått vacker färg.",
+"Servera tillsammans med en god och krispig sallad och toppa gärna med lite oregano."
+  ],
+  "portion": "4 portioner",
+  "duration": "45 min",
+  "serving": [
+  "krispsallad"
+  ],
+  "foodImg": "id17.png",
+  "rating": 4
+},
+ 
+{
+  "id": 18,
+  "foodType": "food",
+  "name": "Omelett med morot",
+  "description": "\"Den här omeletten med morot är perfekt att svänga ihop som en snabb och enkel lunch! Morot är bra att alltid ha i kylen. Håller hur länge som helst!\" /Jessica Frej",
+  "ingredience": [
+  "3 morötter",
+"3 msk olivolja (att steka i)",
+"0,5 tsk salt",
+"0,5 tsk svartpeppar",
+"6 ägg",
+"1 dl vispgrädde",
+"0,5 tsk salt",
+"1 dl ost, riven",
+"0,5 förp rucolasallad"
+  ],
+  "method": [
+  "Riv morötterna.",
+"Stek morötterna i olivolja med salt och svartpeppar.",
+"Vispa ihop ägg, grädde och salt.",
+"Häll blandningen över morötterna i pannan.",
+"Dra smeten in från kanterna lite grann hela tiden.",
+"När omeletten är fast så häll på ost och rucola och stjälp upp på ett fat."
+  ],
+  "portion": "2 portioner",
+  "duration": "15 min",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id18.png",
+  "rating": 5
+},
+ 
+ {
+  "id": 19,
+  "foodType": "food",
+  "name": "Spaghetti carbonara",
+  "description": "Spaghetti carbonara är en snabblagad italiensk klassiker. En äkta carbonara görs utan grädde och blir krämig tack vare en skvätt pastavatten i såsen. Snåla inte med svartpepparn och använd nymalen från kvarn. ",
+  "ingredience": [
+  "400 g spaghetti",
+"4 äggulor",
+"200 g pancetta",
+"30 g pecorinoost, finriven",
+"30 g parmesanost, finriven (gärna lagrad minst 16 månader)",
+"svartpeppar, nymalen",
+"salt"
+  ],
+  "method": [
+  "Koka spaghettin ca 3 minuter kortare än anvisningen på förpackningen säger.",
+"Skär pancettan i små bitar.",
+"Stek pancettan i en wokpanna eller en stekpanna med höga kanter utan fett tills den blivit krispig. Lyft upp och lägg åt sidan. Låt fettet vara kvar i pannan.",
+"Vispa ihop äggulorna med den fint rivna osten och rikligt med nymalen svartpeppar i en skål.",
+"Sätt på värmen igen på pannan med stekfettet, häll i ca 3 dl av pastavattnet och låt koka.",
+"Häll av spagettin och lägg i pannan med pancettan. Precis som när man kokar risotto i en buljong ska pastan få koka i stekfettet. Låt koka ca 2-3 minuter och rör om hela tiden, det gör att stärkelsen från pastan utsöndras och det blir en krämig sås.",
+"När vattnet börjar koka in och det är någon matsked kvar, ta pannan från värmen. Tillsätt äggsmeten, rör runt tills det blir krämigt, tillsätt lite vatten om det blir torrt. Smaka av med salt och peppar."
+  ],
+  "portion": "4 portioner",
+  "duration": "20 min",
+  "serving": [],
+  "foodImg": "id20.png",
+  "rating": 5
 },
 
 {
-  "id": 2,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 20,
+  "foodType": "food",
+  "name": "Gravad och halstrad skreitorsk",
+  "description": "Vad sägs som en härlig middag bestående av svartpeppargravad och halstrad skreitorsk med ägg, amadinepotatis, savoykål och pepparrot?",
+  "ingredience": [
+  "torskben",
+"1,5 l vatten",
+"2 gula lökar",
+"vitpeppar",
+"lagerblad",
+"3 dl vitt vin",
+"2 dl grädde",
+"citron",
+"vitlök",
+"maizenaredning",
+"2 msk smör",
+"600 g skreitorsk",
+"1 msk strösocker",
+"1 tsk salt",
+"1 tsk svartpeppar, grovkrossad",
+"9 potatis Amandine",
+"0,5 savoykål",
+"2 dl olja (till fritering)",
+"1 msk olivolja",
+"1 msk dijonsenap, utrörd i 1 msk olivolja (grov)",
+"1 knippe persilja (stort)",
+"2 ägg, kokta",
+"1 färsk pepparrot (liten)"
+  ],
+  "method": [
+  "Skölj torskbenen rena och lägg dem i en kastrull. Slå på vatten, koka upp och skumma av.",
+"Tillsätt finhackad lök och kryddor och sjud i 10 minuter. Låt vila en timme. Sila sedan genom en sil och börja koka ner. Koka först ner tills ca 3 dl kvarstår.",
+"Tillsätt vin och fortsätt koka ner till 2 dl. Häll i grädde och koka ner ytterligare. Smaksätt med lite citron, riven vitlök och red av med maizena. Mixa skummigt och tillsätt lite smör.",
+"Stycka skreitorsken i 4 bitar.",
+"Blanda socker, salt och svartpeppar och gnid in fisken, låt dra någon timme.",
+"Skala och koka potatisen.",
+"Skölj bladen på savoykålen, skrimla det ljusa för sig och det gröna för sig. Koka det ljusa i lite vatten och smör i 3-4 minuter. Det gröna steker eller friterar du i olja.",
+"Halstra torsken i lite olja och smör, ca 2-3 minuter på var sida. Pensla sedan på senapen innan servering.",
+"Krossa potatisen och blanda med persiljan.",
+"Lägg upp moset på ett fat, toppa med ljus savoykål, rivet ägg, knaprigt savoykål och färskriven pepparrot.",
+"Lägg torsken vid sidan om och servera med den skummiga såsen."
+  ],
+  "portion": "4 portioner",
+  "duration": "2 timmar",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id19.png",
+  "rating": 5
 },
-
+ 
 {
-  "id": 3,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
-}]
+  "id": 21,
+  "foodType": "food",
+  "name": "Halloumi tikka masala",
+  "description": "Lättlagad och krämig gryta med massor av smak. Vanligtvis görs rätten med kyckling, här byter Jennie mot stekta halloumitärningar för en vegetarisk variant.",
+  "ingredience": [
+  "Masala",
+"50 g smör",
+"2 gula lökar, tunt skivade",
+"5 klyfta vitlök, rivna",
+"2 msk färsk ingefära, riven",
+"2 tsk malen spiskummin",
+"2 tsk malen gurkmeja",
+"1 tsk malen koriander",
+"2 tsk paprikapulver",
+"2 tsk garam masala",
+"1 msk tomatpuré",
+"500 g krossade tomater",
+"3 dl vispgrädde",
+"1 kruka färsk koriander, stjälkar grovt hackade och blad sparade till garnering",
+"600 g halloumiost, skuren i stora tärningar",
+"olja, till stekning",
+"salt",
+"peppar"
+  ],
+  "method": [
+  "Tillaga riset enligt anvisning på förpackningen.",
+"Stek lök i smör till mjuk och lätt brynt. Tillsätt vitlök och ingefära, låt fräsa med i 1 minut.",
+"Tillsätt sedan alla kryddorna och låt steka under omrörning i ca 1 minut. Tillsätt tomatpurén och låt även den steka under omrörning ca 1 minut.",
+"Häll sedan på krossade tomater, korianderstjälkar och grädde. Låt puttra i 10 minuter, smaka av med salt och peppar.",
+"Stek halloumi till gyllene yta runtom i en stekpanna. Lägg den steka halloumin i såsen. Blanda runt.",
+"Servera halloumi tikka masala med riset och yoghurt. Toppa med korianderblad."
+  ],
+  "portion": "4 portioner",
+  "duration": "30 min",
+  "serving": [
+  "4 port basmatiris",
+"2 dl matyoghurt"
+  ],
+  "foodImg": "id21.png",
+  "rating": 4
+}
+]
