@@ -1,38 +1,263 @@
 [{
-  "id": 1,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 8,
+  "foodType": "dessert",
+  "name": "Chokladglass med baileys och valnötskaramell",
+  "description": "Krämig chokladglass som enkelt görs utan glassmaskin. För att sätta en liten extra touch på glassen smaksätter Lotta den med Baileys och knäckig valnötskaramell.",
+  "ingredience": [
+  "Glass",
+"400 g mörk choklad (70%)",
+"5 dl grädde, vispad",
+"1 dl baileys",
+"2 msk strösocker",
+"0,25 tsk salt",
+"",
+"Valnötskaramell",
+"0,66 dl honung",
+"75 g valnötter"
+],
+  "method": [
+  "Smält chokladen i vattenbad. Blanda den smälta chokladen med vispad grädde, Baileys, socker och salt. Frys i minst 6 timmar.",
+"Gör karamellen: koka upp honungen i en tjockbottnad kastrull och låt bubbla tills honungen fått samma färg som ljus sirap. Ta från värmen, rör ner valnötterna och sprid ut på bakpappersklädd plåt eller bricka.",
+"Ställ svalt tills karamellen satt sig, ca 20 minuter. Lossa därefter från bakplåtspappret och hacka grovt.",
+"Fördela glassen i kylda glas eller små skålar. Slå över lite Baileys, en klick vispad grädde om du vill och toppa med valnötskaramellen."
+],
+  "portion": "10 portioner",
+  "duration": "30 min + tid i frys",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id8.png",
+  "rating": 5
 },
-
+ 
 {
-  "id": 2,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 9,
+  "foodType": "dessert",
+  "name": "Crème brûlée med rabarber",
+  "description": "Efterrätternas efterrätt med en touch av rabarber. ",
+  "ingredience": [
+  "1,5 dl mjölk",
+"5 dl vispgrädde",
+"1 vaniljstång",
+"7 äggulor",
+"1,25 dl strösocker",
+"2 dl rabarber, hackad (som legat i socker över natten)"
+  ],
+  "method": [
+  "Sätt ugnen på 150 grader.",
+"Skär ett snitt i vaniljstången på längden och skrapa ut fröna. Lägg mjölk, grädde, stång och frön i en kastrull.",
+"Koka upp snabbt och dra sedan bort från värmen. Smaken blir fylligare och bruléen blir krämigare av en snabb upphettning.",
+"Separera gulan från vitan på äggen. Spara gärna vitan till t ex maränger eller frys in dem.",
+"Vispa ihop äggulor och socker i en bunke. Vispa ner i kastrullen med gräddblandningen.",
+"Låt rabarbern rinna av från vätskan som bildats under natten. Använd gärna en sil.",
+"Lägg en klick rabarber i ugnssäkra portionsformar. Häll över gräddblandningen i formarna.",
+"Ställ formarna i vattenbad i en ugnssäker form. Ställ in i ugnen 20-40 minuter tills blandningen börjar stelna i mitten.",
+"Ta ut formarna, sprid ut strösocker/råsocker över hela ytan på crème bruléen. Bränn sedan ytan med en brännare så sockret stelnar och får en fin guldbrun färg.",
+"Låt svalna, ät och njut!"
+  ],
+  "portion": "6 portioner",
+  "duration": "1 timme",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id9.png",
+  "rating": 5
 },
-
+ 
 {
-  "id": 3,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 10,
+  "foodType": "dessert",
+  "name": "Kladdkaka i glas med kolaflarn",
+  "description": "Dessert med kladdkaka som blir extra fin att servera när den görs i glas. Toppa med glass, kolasås och ett löjligt enkelt kolaflarn. ",
+  "ingredience": [
+  "Kladdkaka",
+"150 g smör",
+"2,5 dl strösocker",
+"1 dl brunt farinsocker",
+"1 msk vaniljsocker",
+"3 ägg, stora",
+"2,25 dl vetemjöl",
+"1 dl kakao",
+"1 krm salt",
+"",
+"Kolaflarn",
+"5 karameller, t ex gräddkola från werthers eller dumle"
+  ],
+  "method": [
+  "Kladdkaka \nSätt ugnen på 175 grader, över- och undervärme.",
+"Smält smöret i en kastrull på medelvärme.",
+"Rör ihop smöret med resten av ingredienserna i en bunke, rör bara tills ingredienserna precis har gått ihop.",
+"Fördela smeten i ugnståliga glas.",
+"Grädda i nedre delen av ugnen 25-30 minuter tills kakan är fast i kanterna och lite vobblig i mitten.",
+"Låt svalna helt i rumstemperatur. Ställ dem därefter i kylen i minst 4 timmar, helst över natten (ställer du dem direkt från ugn till kyl finns risk att glasen spricker).",
+"Kolaflarn \nSätt ugnen på 200 grader, över- och undervärme. Täck en plåt med bakplåtspapper.",
+"Fördela karamellerna med mycket mellanrum mellan varandra på plåten.",
+"Grädda i mitten av ugnen i 6-10 minuter. De är klara när de är bubbliga och gyllenbruna. Låt svalna helt och hållet på plåten.",
+"Toppa kladdkakorna med med vaniljglass, kolasås och kolaflarn."
+  ],
+  "portion": "5 portioner",
+  "duration": "40 min + tid i kylen",
+  "serving": [
+  "kolasås",
+"vaniljglass"
+  ],
+  "foodImg": "id10.png",
+  "rating": 4
+},
+ 
+{
+  "id": 11,
+  "foodType": "dessert",
+  "name": "Crème caramel med saffran",
+  "description": "Klassisk dessert smaksatt med saffran. Desserten går bra att förbereda dagen innan, ställ kallt i kylskåp och stjälp upp på ett stort fat vid servering.",
+  "ingredience": [
+  "5 dl mjölk",
+"1 g saffran",
+"1 dl strösocker",
+"2 ägg",
+"2 äggulor",
+"",
+"Karamell",
+"2 dl strösocker",
+"1 apelsin, saften",
+"2 msk vatten",
+"",
+"Garnering",
+"2-3 kvist oxalis (alt citronmeliss)"
+  ],
+  "method": [
+    "Koka upp mjölk, saffran och 1 dl socker i en kastrull, låt svalna.",
+"Sätt ugnen på 150 grader, varmluft.",
+"Vispa ihop (ej med elvisp) saffransmjölken med ägg och äggulor till en jämn smet.",
+"Koka ihop socker, apelsinsaft och vatten till en karamell, det tar ungefär 3-4 minuter. Karamellen ska vara seg i konsistensen och ha en gyllene färg.",
+"Fördela karamellen i små glaskoppar eller små kaffekoppar så hela insidan täcks, låt svalna.",
+"Häll i ägg- och saffranssmeten i kopparna.",
+"Fyll en ugnssäker form med varmt vatten och ställ in mitt i ugnen. Placera kopparna i vattenbadet och grädda i ca 1 timma tills ägg- och saffranskrämen ”stannat”, den ska fortfarande vara lite krämig i mitten.",
+"Ta ut ugnsformen försiktigt så du inte får vatten i kopparna. Ta upp kopparna och låt svalna.",
+"Stjälp upp desserten på ett stort fat så karamellen flyter ut. Dekorera med oxalis eller citronmeliss."
+],
+  "portion": "4 - 6 portioner",
+  "duration": "1 timme 20 min",
   "serving": [],
-  "foodImg": ""
-}]
+  "foodImg": "id11.png",
+  "rating": 4
+},
+ 
+{
+  "id": 12,
+  "foodType": "dessert",
+  "name": "Minipavlova med hjortroncurd och mascarponegrädde",
+  "description": "Tjusig portionsdessert med maräng, curd på hjortron och en len gräddblandning med mascarpone. ",
+  "ingredience": [
+  "Maräng",
+"3 äggvitor",
+"3 dl strösocker",
+"",
+"Hjortroncurd",
+"150 g smör",
+"150 g hjortron, + några hela hjortron till garnering",
+"1,25 dl strösocker",
+"1 msk majsstärkelse",
+"0,5 citron (saften)",
+"2 äggulor",
+"",
+"Mascarponegrädd:",
+"2 dl vispgrädde",
+"1 burk mascarpone (á 250 g)",
+"0,5 tsk vaniljpulver",
+"0,5 dl florsocker"
+],
+  "method": [
+  "Maräng \nVispa äggvitorna fasta (du ska kunna vända upp och ner på skålen). Tillsätt socker, lite i taget, och vispa tills du får en glansig och toppig maräng.",
+"Häll upp i spritspåse och spritsa ut 6 rundlar, ca 10 cm i diameter, försök att spritsa så att du får en kant, då blir det lättare att få plats med fyllningen.",
+"Låt marängen vila på plåten minst 30 minuter så att smeten får sätta sig. Grädda marängerna i 10 minuter på 150°C, sänk därefter värmen till 100°C och låt grädda ytterligare 30 minuter.",
+"Hjortroncurd \nKoka upp hjortron och citronsaft i en kastrull, koka ett litet tag så bären släpper lite vätska. Använd ett durkslag och sila bort kärnorna.",
+"Tillsätt socker och smör och koka försiktigt upp under omrörning. Ta av kastrullen från plattan och låt svalna någon minut. Sikta ner majsstärkelse under omrörning och rör ner äggulorna.",
+"Sätt tillbaka kastrullen på plattan och rör om hela tiden. Låt sjuda på medelvärme under omrörning tills curden har tjocknat. Häll upp i burk eller direkt i spritspåse.",
+"Mascarponegrädde \nVispa grädden ganska lätt, blanda i resten av ingredienserna och vispa tills du får en fluffig kräm. Häll upp i spritspåse. Låt ligga i kylen fram till servering.",
+"Spritsa lite curd och grädde i varje maräng precis innan servering. Toppa med hjortron och citronmeliss."
+  ],
+  "portion": "6 portioner",
+  "duration": "2 timmar",
+  "serving": [],
+  "foodImg": "id12.png",
+  "rating": 5
+},
+ 
+{
+  "id": 13,
+  "foodType": "dessert",
+  "name": "Vit chokladterrin med sval hallonsås",
+  "description": "En krämig chokladterrin med sval hallonsås kommer göra sig riktigt fint som dessert. \n\nReceptet är från tv-programmet Halv åtta hos mig, och recepten därifrån är komponerade av amatörkockar. Köket.se kan därför inte gå i god för receptet.",
+  "ingredience": [
+  "Hallonsås",
+"1 förp hallon, frysta",
+"0,5-1 dl florsocker",
+"1-2 msk likör (cointreau)" ,
+"",
+"Chokladterrin",
+"2 msk rörsocker",
+"5 msk vatten",
+"300 g vit choklad (blockchoklad)",
+"3 ägg, separerade",
+"3 dl vispgrädde"
+  ],
+  "method": [
+  "Hallonsås \nTina hallonen och mosa ner dem i en skål genom en finmaskig sil. Blanda i florsocker och likör.",
+"Terrin \nKlä en brödform i folie och ställ åt sidan.",
+"Häll sockret och vattnet i en kastrull och värm försiktigt under omrörning tills sockret smält. Låt koka upp och koka i ca 1-2 minuter. Ta av kastrullen från plattan.",
+"Bryt chokladen i bitar och rör ner i sockerlagen, några bitar i taget. Rör om tills väl blandat.",
+"Vispa ner äggulorna i chokladsmeten. Låt blandningen kallna.",
+"Vispa grädden och vänd ner i den kalla smeten.",
+"Vispa äggvitorna i en ren skål till ett hårt skum. Vänd ner i chokladsmeten.",
+"Häll smeten i brödformen och stoppa in i frysen. (Helst över natten). Ta ut ur frysen 10-15 minuter innan servering."
+  ],
+  "portion": "4 portioner",
+  "duration": "1 timme + tid i frysen",
+  "serving": [],
+  "foodImg": "id13.png",
+  "rating": 5
+},
+ 
+{
+  "id": 14,
+  "foodType": "dessert",
+  "name": "Kardemummapannacotta med päronkompott",
+  "description": "Pannacotta är alltid en uppskattad dessert efter maten. Den här har smak av kardemumma och serveras med päronkompott och kanelkrisp. \n\nReceptet är från tv-programmet Halv åtta hos mig, och recepten där är komponerade av amatörkockar. Köket.se kan därför inte gå i god för receptet.",
+  "ingredience": [
+  "Pannacotta",
+"2 gelatinblad",
+"5 dl vispgrädde",
+"0,5 dl strösocker",
+"1 vaniljstång (eller 1 tsk vaniljsocker)",
+"1 krm malen kardemumma",
+"",
+"Päronkompott",
+"2 päron, skalade",
+"0,5 dl vatten",
+"0,5 dl strösocker",
+"0,5 msk päronlikör",
+"",
+"Krispig kanel",
+"1 dl havregryn",
+"2 msk strösocker",
+"1 tsk malen kanel",
+"1 krm salt"
+  ],
+  "method": [
+  "Pannacotta \nLägg gelatinbladen i en skål med kallt vatten.",
+"Häll vispgrädden i en kastrull tillsammans med strösockret. Skär ett snitt i vaniljstången och skrapa ur fröerna med kniven, eller en sked. Tillsätt både stången och fröerna i kastrullen.",
+"Låt koka upp och rör om. Sänk värmen och låt puttra i ca 2-5 minuter. Det ger lite extra smak från stången. Ta av kastrullen från plattan och häll upp i en skål. Fiska upp vaniljstången.",
+"När du hällt upp grädden vispar du ner kardemumman i blandningen.",
+"Ta upp gelatinbladen ur vattnet och kramar ur dem. Det är viktigt att grädden inte kokar när du nu skall tillsätta gelatinbladen. När du lagt i bladen och rört om ordentligt är det dags att hälla upp pannacottan i serveringsglas.",
+"Ställ in i kylen i minst 2 timmar.",
+"Päronkompott \nSkär päronen i fyrkantiga små bitar. ",
+"Lägg nitarna i en kastrull tillsammans med vatten och socker.",
+"Koka försiktigt till en grov kompott. Mjuk på utsidan, men gärna lite tuggmotstånd på insidan. Tar ca 10 minuter.",
+"Tag av grytan från plattan och häll upp kompotten i en skål. Låt svalna.",
+"När kompotten har kallnat och det är dags för servering kan man tillsätta päronlikor om man vill för lite kraftigare smak.",
+"Kanelkrisp \nVärm upp en stekpanna och rosta havregrynet tillsammans med socker ca 2-3 minuter. Det går fort. När det börjar gå ihop och bli lite knäckigt kan du ta av det från plattan. Tillsätt kanel och salt."
+  ],
+  "portion": "4 portioner",
+  "duration": "25 min",
+  "serving": [],
+  "foodImg": "id14.png",
+  "rating": 4
+}
+]

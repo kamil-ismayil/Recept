@@ -1,38 +1,169 @@
 [{
-  "id": 1,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 22,
+  "foodType": "smoothie",
+  "name": "Barnens frukostsmoothie",
+  "description": "Alla barn är inte hungriga till frukost. Men en smoothie brukar alltid gå ner! Preppa din mixer kvällen innan och ställ i kylskåpet, så är det bara att ta fram och mixa på morgonen - och vips så är den klar!",
+  "ingredience": [
+  "2 dl mandeldryck",
+"2 msk BOB BARA BÄR & Frukt",
+"1 banan",
+"1 dl bär, färska eller frysta"
+  ],
+  "method": [
+  "Mixa alla ingredienser i en mixer till en slät massa.",
+"Servera i glas med sugrör. Voilà."
+  ],
+  "portion": "2 portioner",
+  "duration": "5 min",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id22.png",
+  "rating": 4
 },
-
+ 
 {
-  "id": 2,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
+  "id": 23,
+  "foodType": "smoothie",
+  "name": "Jordgubbssmoothie",
+  "description": "En mättande och fräsch smoothie som passar utmärkt till frukost, mellanmål eller lyxig brunch.",
+  "ingredience": [
+  "1 dl Zeta 5 Gryner Ekologisk (ekologisk)",
+"4 dl frysta jordgubbar (ekologiska)",
+"ev 2 msk agavesirap",
+"1 avokado",
+"10 blad basilika",
+"1 l äppeljuice"
+  ],
+  "method": [
+  "Koka upp rikligt med vatten.",
+"Lägg i grynen, låt koka i 10 minuter och spola av grynen i ett durkslag under kallt vatten.",
+"Mixa ihop samtliga ingredienser i en blender.",
+"Klart att servera!"
+  ],
+  "portion": "4 portioner",
+  "duration": "20 min",
   "serving": [],
-  "foodImg": ""
+  "foodImg": "id23.png",
+  "rating": 5
 },
-
+ 
 {
-  "id": 3,
-  "foodType": "",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
+  "id": 24,
+  "foodType": "smoothie",
+  "name": "Grön smoothie med mynta och lime",
+  "description": "Starta dagen på bästa sätt med en grön smoothie på spenat, avokado, mango, lime och mynta.",
+  "ingredience": [
+  "1 avokado",
+"200 g fryst mango",
+"1 limefrukt",
+"1 stor näve färsk bladspenat",
+"1 knippe färsk mynta",
+"2-3 dl vatten"
+  ],
+  "method": [
+  "Mixa allt i din blender!"
+  ],
+  "portion": "2 portioner",
+  "duration": "10 min",
+  "serving": [],
+  "foodImg": "id24.png",
+  "rating": 3
+},
+ 
+{
+  "id": 25,
+  "foodType": "smoothie",
+  "name": "Smoothie med avokado, ingefära och hallon",
+  "description": "Mitt köks recept på supergod och nyttig smoothie med yoghurt, avokado, ingefära och hallon.",
+  "ingredience": [
+  "0,5 l yoghurt",
+"200 g hallon (färska eller frysta)",
+"20 g färsk ingefära",
+"1 avokado",
+"2 msk honung, flytande"
+  ],
+  "method": [
+  "Kärna ur och tärna avocadon. Riv ingefäran.",
+"Blanda alla ingredienser i en mixer eller i en bunke för stavmixer och mixa väl.",
+"Häll upp i glas och njut!"
+  ],
+  "portion": "2 portioner",
+  "duration": "5 min",
+  "serving": [],
+  "foodImg": "id25.png",
+  "rating": 3
+},
+ 
+{
+  "id": 26,
+  "foodType": "smoothie",
+  "name": "Chokladfrukost-smoothie",
+  "description": "Jag tycker verkligen om att starta dagen med en smoothie och det här receptet tillhör en av mina absoluta favoriter som den sanna chokladälskare jag är. Den ger en lätt känsla i kroppen och passar utmärkt att dricka innan jag tar en powerwalk eller ska styrketräna.",
+  "ingredience": [
+  "2 frukter (t ex äpple, päron, banan)",
+"3 msk kokosmjölk, rågade (den fetare varianten)",
+"2 äggvitor (eller 1 kokt ägg)",
+"1 msk kakao",
+"0,5 msk gurkmeja",
+"2 tsk kallpressad linfröolja",
+"4 dl vatten",
+"Till garnering",
+"riven kokos"
+  ],
+  "method": [
+  "Skär frukten i bitar.",
+"Mixa samtliga ingredienser och späd med mer vatten om så önskas.",
+"Toppa med kokosflingor och servera!"
+  ],
+  "portion": "2 portioner",
   "duration": "",
   "serving": [],
-  "foodImg": ""
-}]
+  "foodImg": "id26.png",
+  "rating": 4
+},
+ 
+{
+  "id": 27,
+  "foodType": "smoothie",
+  "name": "Smoothie med honung",
+  "description": "Ett bra mellanmål, en lyxig frukost - det finns alltid en bra anledning till att mixa ihop en smoothie. Ta det du har hemma. Här är en med yoghurt, glass och honung.",
+  "ingredience": [
+  "5 dl yoghurt",
+"1 dl standardmjölk",
+"1 vaniljglassskopa",
+"5 msk honung, flytande"
+  ],
+  "method": [
+  "Mixa samman alla ingredienser till en slät smootie.",
+"Servera omgående."
+  ],
+  "portion": "4 portioner",
+  "duration": "",
+  "serving": [],
+  "foodImg": "id27.png",
+  "rating": 5
+},
+ 
+{
+  "id": 28,
+  "foodType": "smoothie",
+  "name": "Min super-smoothie",
+  "description": "Den hör smoothien med blåbär, kvarg, spenat och selleri är en perfekt start på dagen!",
+  "ingredience": [
+  "3 dl blåbär, frusna",
+"2 dl kvarg",
+"2 dl apelsinjuice, färskpressad",
+"2 dl färsk spenat",
+"1 stjälkselleri",
+"1 äpple (grönt)"
+  ],
+  "method": [
+  "Mixa alla ingredienser i minst 1 minut.",
+"Servera sedan direkt."
+  ],
+  "portion": "1 portioner",
+  "duration": "10 min",
+  "serving": [],
+  "foodImg": "id28.png",
+  "rating": 5
+}
+]
