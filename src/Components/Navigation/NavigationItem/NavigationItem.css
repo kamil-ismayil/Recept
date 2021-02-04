@@ -6,16 +6,6 @@
 .navigationItem .menu:hover{ 
     color: white;
     background-color: rgb(168, 205, 233);
-    font-size: 22px;
 }
 
-.navigationItem .mal{ 
-    margin-bottom: 10px;
-    margin-left: 0px;
-}
-
-.navigationItem .ing{ 
-    margin-bottom: 10px;
-    margin-left: 0px;
-}
 

@@ -1,20 +1,7 @@
 .mat{
-    position: fixed;
-    display: flex;
-    margin: 0em 15em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    justify-content: space-evenly;
 }
-
-.mat .maltider {
-    margin-left: 70px;
-    margin-right: 100px;
-}
-
-.mat .ingredients {
-    margin-left: 400px;
-    position: fixed;
-
-}
-
-.mat ul{
-    list-style-type: none;
-}    

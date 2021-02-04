@@ -4,7 +4,7 @@ import NavigationItem from '../../Components/Navigation/NavigationItem/Navigatio
 
 const mat = (props) =>(
     <div className="mat">
-        <div className="maltider">
+        <div className="">
             <h1>Måltider</h1>
             <ul>
                 <NavigationItem link="/" cname="mal, menu">Förrätter</NavigationItem>
@@ -15,7 +15,7 @@ const mat = (props) =>(
             </ul>
         </div>  
 
-        <div className="ingredients">
+        <div className="">
             <h1>Ingredients</h1>
             <ul>
                 <NavigationItem link="/" cname="ing, menu">Kyckling</NavigationItem>
