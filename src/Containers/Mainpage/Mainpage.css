@@ -3,3 +3,13 @@
     display: grid;
     margin: 0em 15em;
 }
+
+.mainpage input{
+    height: 100%;
+    width: 70%;
+    border: 10px solid gray;   
+}
+
+.mainpage p{
+    text-align: justify;
+}

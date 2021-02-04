@@ -1,4 +1,5 @@
 [{
+<<<<<<< HEAD:src/Data/foodData.json
   "id": 15,
   "foodType": "food",
   "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
@@ -44,6 +45,18 @@
 "ev svarta sesamfrön"],
   "foodImg": "id15.png",
   "rating": 5
+=======
+  "id": 1,
+  "foodType": "mat",
+  "name": "",
+  "description": "",
+  "ingredience": [],
+  "method": [],
+  "portion": "",
+  "duration": "",
+  "serving": [],
+  "foodImg": ""
+>>>>>>> kamil:src/Data/Json/mat.json
 },
  
 {

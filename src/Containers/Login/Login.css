@@ -1,13 +1,15 @@
 .main-form {
-    width: 20rem;
-    max-width: 80%;
-    padding: 1rem;
-    border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-    display: grid;
-    grid-gap: 10px;
-    margin: 2em 25em;
-  }
+  width: 25rem;
+  height: 20rem;
+
+  max-width: 80%;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  display: grid;
+  grid-gap: 10px;
+  margin: 2em 20em;
+}
   
   .login input {
     padding: 0.1rem 0.25rem;
