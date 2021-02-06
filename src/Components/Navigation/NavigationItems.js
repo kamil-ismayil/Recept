@@ -3,6 +3,7 @@ import './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = (props) =>(
+    
         <ul className="navigationItems">
             <NavigationItem link="/startpage" cname="menu">Start sida</NavigationItem>
 

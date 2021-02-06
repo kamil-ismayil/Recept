@@ -5,11 +5,12 @@
   border-width: 3px;
   height: 450px;
   width: 150px;
-  background-color:  rgb(236, 240, 243);
+  background-color: #e2effa;
   font-size: 20px;
   margin-top: 1px;
   margin-bottom: 0px;
   position: absolute;
+
 }
 
 .navigationItems, ul{

@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Pink gin med jordgubbar",
 		"description": "En mer somrig drink får man leta efter! Farligt god med en mjuk smak av gin och frisk smak av lemonad och jordgubbar.",
 		"ingredience": [
@@ -20,13 +20,13 @@
 		"portion": "1 portioner",
 		"duration": "",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id1.png",
+		"foodImg": "/Images/DrinkImages/id1.png",
 		"rating": 5
 	},
 
 	{
 		"id": 2,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Dry Martini, Mathin Lundgrens recept",
 		"description": "En klassiker som aldrig går ur tiden. ",
 		"ingredience": [
@@ -45,15 +45,15 @@
 		"portion": "1 glas",
 		"duration": "",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id2.png",
+		"foodImg": "/Images/DrinkImages/id2.png",
 		"rating": 4
 	},
 
 	{
 		"id": 3,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Tom Collins, David Kringlunds recept",
-		"description": "'Om jag skulle rekommendera att man lär sig en drink så blir det sannolikt en Tom Collins. Anledningen är att den smakar som en lemonad, vilket många uppskattar men också att man kan smaksätta den med vad man helst vill. Hallon, kaffe, ingefära eller fläder är alla smaker som går fint ihop med Tom Collins.' /David \nSå gör du sockerlag! \nKoka upp lika delar socker och vatten under konstant omrörning. När sockret har löst upp sig är lagen klar! Låt svalna innan användning.",
+		"description": "Den smakar som en lemonad, vilket många uppskattar men också att man kan smaksätta den med vad man helst vill. Hallon, kaffe, ingefära eller fläder är alla smaker som går fint ihop med Tom Collins.",
 		"ingredience": [
 			"5 cl gin",
 			"3 cl citronsaft",
@@ -69,13 +69,13 @@
 		"portion": "",
 		"duration": "5 min",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id3.png",
+		"foodImg": "/Images/DrinkImages/id3.png",
 		"rating": 5
 	},
 
 	{
 		"id": 4,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Sparkling hallonslush",
 		"description": "Mums - det här receptet är så enkelt och läskande gott! \n\nPerfekt till barnen en varm sommardag eller tillsätt lite citronvodka och ha som fördrink på festen.",
 		"ingredience": [
@@ -90,13 +90,13 @@
 		"portion": "2 portioner",
 		"duration": "5 min",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id4.png",
+		"foodImg": "/Images/DrinkImages/id4.png",
 		"rating": 5
 	},
 
 	{
 		"id": 5,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Alkoholfri mojito",
 		"description": "Använd drinkmix till en alkoholfri mojito som är minst lika god som den vanliga!",
 		"ingredience": [
@@ -113,13 +113,13 @@
 		"portion": "2 glas",
 		"duration": "",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id5.png",
+		"foodImg": "/Images/DrinkImages/id5.png",
 		"rating": 4
 	},
 
 	{
 		"id": 6,
-		"foodType": "drink",
+		"foodType": ["drink"],
 		"name": "Alkoholfri drink med grape",
 		"description": "Vitt vin, tonic och grape blir en god och läskande alkoholfri fördrink till festen.",
 		"ingredience": [
@@ -133,14 +133,14 @@
 		"portion": "2 glas",
 		"duration": "5 min",
 		"serving": ["2 skiva grapefrukt", "2 kvist rosmarin", "is, bitar"],
-		"foodImg": "./Images/DrinkImages/id6.png",
+		"foodImg": "/Images/DrinkImages/id6.png",
 		"rating": 5
 	},
 
 	{
 		"id": 7,
-		"foodType": "drink",
-		"name": "",
+		"foodType": ["drink"],
+		"name": "Alkoholfri tonicdrink",
 		"description": "En alkoholfri tonicdrink med smak av gurka. Svalkande och gott varma sommardagar.",
 		"ingredience": [
 			"Gurksockerlag",
@@ -158,7 +158,7 @@
 		"portion": "1 glas",
 		"duration": "15 min",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id7.png",
+		"foodImg": "/Images/DrinkImages/id7.png",
 		"rating": 5
 	}
 ]

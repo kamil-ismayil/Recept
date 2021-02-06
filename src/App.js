@@ -8,6 +8,7 @@ import Login from './Containers/Login/Login';
 import Mainpage from "./Containers/Mainpage/Mainpage";
 import Mat from './Containers/Mat/Mat';
 import Drink from './Containers/Drink/Drink';
+import Page from './Components/Page/Page';
 
 function App(){
 		return (
@@ -26,11 +27,12 @@ function App(){
 						<Route path="/recepter/smoothie" exact component={Login}/>     
 						<Route path="/recepter/dessert" exact component={Login}/>    
 						<Route path="/recepter/populara" exact component={Login}/>        
+
+						<Route path="/recepter/dryck/:id" exact component={Page}/>        
 					</Switch>
 				</BrowserRouter> 
 			</div>
 		);
 	}
-
 
 export default App;
