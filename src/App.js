@@ -3,12 +3,14 @@ import "./App.css";
 import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Recepter from './Containers/Recipes/Recipes';
 import Startpage from './Containers/StartPage/Startpage';
-import Favorites from './Containers/Favorites/Favorites';
+import Smoothie from './Containers/Smoothie/Smoothie';
+import Popular from './Containers/Popular/Popular';
 import Login from './Containers/Login/Login';
 import Mainpage from "./Containers/Mainpage/Mainpage";
 import Mat from './Containers/Mat/Mat';
 import Drink from './Containers/Drink/Drink';
 import Page from './Components/Page/Page';
+import Dessert from './Containers/Dessert/Dessert';
 
 function App(){
 		return (
@@ -24,11 +26,15 @@ function App(){
 						
 						<Route path="/recepter/mat" exact component={Mat}/>
 						<Route path="/recepter/dryck" exact component={Drink}/>    
-						<Route path="/recepter/smoothie" exact component={Login}/>     
-						<Route path="/recepter/dessert" exact component={Login}/>    
-						<Route path="/recepter/populara" exact component={Login}/>        
+						<Route path="/recepter/smoothie" exact component={Smoothie}/>     
+						<Route path="/recepter/dessert" exact component={Dessert}/>    
+						<Route path="/recepter/popular" exact component={Popular}/>        
 
 						<Route path="/recepter/dryck/:id" exact component={Page}/>        
+						<Route path="/recepter/smoothie/:id" exact component={Page}/>        
+						<Route path="/recepter/dessert/:id" exact component={Page}/>        
+						<Route path="/recepter/popular/:id" exact component={Page}/>        
+						<Route path="/recepter/mat/:id" exact component={Page}/>        
 					</Switch>
 				</BrowserRouter> 
 			</div>

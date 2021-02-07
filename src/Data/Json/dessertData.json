@@ -24,7 +24,7 @@
   "portion": "10 portioner",
   "duration": "30 min + tid i frys",
   "serving": [],
-  "foodImg": "id8.png",
+  "foodImg": "/Images/DessertImages/id8.png",
   "rating": 5
 },
  
@@ -56,7 +56,7 @@
   "portion": "6 portioner",
   "duration": "1 timme",
   "serving": [],
-  "foodImg": "id9.png",
+  "foodImg": "/Images/DessertImages/id9.png",
   "rating": 5
 },
  
@@ -97,7 +97,7 @@
   "kolasås",
 "vaniljglass"
   ],
-  "foodImg": "id10.png",
+  "foodImg": "/Images/DessertImages/id10.png",
   "rating": 4
 },
  
@@ -135,7 +135,7 @@
   "portion": "4 - 6 portioner",
   "duration": "1 timme 20 min",
   "serving": [],
-  "foodImg": "id11.png",
+  "foodImg": "/Images/DessertImages/id11.png",
   "rating": 4
 },
  
@@ -176,7 +176,7 @@
   "portion": "6 portioner",
   "duration": "2 timmar",
   "serving": [],
-  "foodImg": "id12.png",
+  "foodImg": "/Images/DessertImages/id12.png",
   "rating": 5
 },
  
@@ -211,7 +211,7 @@
   "portion": "4 portioner",
   "duration": "1 timme + tid i frysen",
   "serving": [],
-  "foodImg": "id13.png",
+  "foodImg": "/Images/DessertImages/id13.png",
   "rating": 5
 },
  
@@ -257,7 +257,7 @@
   "portion": "4 portioner",
   "duration": "25 min",
   "serving": [],
-  "foodImg": "id14.png",
+  "foodImg": "/Images/DessertImages/id14.png",
   "rating": 4
 }
 ]

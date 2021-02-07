@@ -1,4 +1,4 @@
-.mat{
+.dessert{
     display: grid;
     grid-template-columns: 200px 200px;
     grid-gap: 30px;
@@ -7,12 +7,12 @@
     justify-content: space-evenly;
 }
 
-.mat .imagebox{
+.dessert .imagebox{
     width: 250px; 
     border-radius: 10px;
 }
 
-.mat img{
+.dessert img{
     width: 250px; 
     height: 250px;
 }

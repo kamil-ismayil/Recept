@@ -1,18 +1,18 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React from 'react';
 import './Method.css';
 
 const method = (props) => {
 
     return(
-        <div>
+        <div className="method">
             <h3>Gör så här</h3>
-            <p>
+            <ol>
                 {props.data.method.map(x=>(
-                    <div>
+                    <li>
                         {x}
-                    </div>
+                    </li>
                 ))}
-            </p>
+            </ol>
         </div>
     )
 }

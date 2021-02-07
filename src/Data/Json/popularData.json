@@ -24,7 +24,7 @@
   "portion": "10 portioner",
   "duration": "30 min + tid i frys",
   "serving": [],
-  "foodImg": "id8.png",
+  "foodImg": "/Images/DessertImages/id8.png",
   "rating": 5
 },
  
@@ -59,7 +59,7 @@
   "portion": "4 portioner",
   "duration": "1 timme + tid i frysen",
   "serving": [],
-  "foodImg": "id13.png",
+  "foodImg": "/Images/DessertImages/id13.png",
   "rating": 5
 },
  
@@ -107,7 +107,7 @@
   "4 port japanskt ris, nykokt",
 "dijonsenap",
 "ev svarta sesamfrön"],
-  "foodImg": "id15.png",
+  "foodImg": "/Images/FoodImages/id15.png",
   "rating": 5
 },
  
@@ -138,7 +138,7 @@
   "portion": "2 portioner",
   "duration": "15 min",
   "serving": [],
-  "foodImg": "id18.png",
+  "foodImg": "/Images/FoodImages/id18.png",
   "rating": 5
 },
  
@@ -163,7 +163,7 @@
 		"portion": "1 portioner",
 		"duration": "",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id1.png",
+		"foodImg": "/Images/DrinkImages/id1.png",
 		"rating": 5
 	},
  
@@ -184,7 +184,7 @@
 		"portion": "2 portioner",
 		"duration": "5 min",
 		"serving": [],
-		"foodImg": "./Images/DrinkImages/id4.png",
+		"foodImg": "/Images/DrinkImages/id4.png",
 		"rating": 5
 	},
  
@@ -210,7 +210,7 @@
   "portion": "4 portioner",
   "duration": "20 min",
   "serving": [],
-  "foodImg": "id23.png",
+  "foodImg": "/Images/SmoothieImages/id23.png",
   "rating": 5
 },
 
@@ -232,7 +232,7 @@
   "portion": "4 portioner",
   "duration": "",
   "serving": [],
-  "foodImg": "id27.png",
+  "foodImg": "/Images/SmoothieImages/id27.png",
   "rating": 5
 }
 ]

@@ -1,9 +1,10 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect} from 'react';
 import './Description.css';
 
-const drink = (props) => {
+const description = (props) => {
     
     useEffect( ()=>{
+        console.log("Description.js");
         console.log(JSON.stringify(props.data))
 
     })
@@ -17,4 +18,4 @@ const drink = (props) => {
     )
 }
 
-export default drink;
+export default description;

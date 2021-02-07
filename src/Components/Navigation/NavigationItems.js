@@ -13,7 +13,7 @@ const navigationItems = (props) =>(
                     <NavigationItem link="/recepter/dryck" cname="menu">Dryck</NavigationItem>
                     <NavigationItem link="/recepter/smoothie" cname="menu">Smoothie</NavigationItem>
                     <NavigationItem link="/recepter/dessert" cname="menu">Dessert</NavigationItem>
-                    <NavigationItem link="/recepter/populara" cname="menu">Populära</NavigationItem>
+                    <NavigationItem link="/recepter/popular" cname="menu">Populära</NavigationItem>
                 </ul>
             <NavigationItem link="/login" cname="sidebar">Login</NavigationItem>
         </ul>

@@ -1,5 +1,4 @@
 [{
-<<<<<<< HEAD:src/Data/foodData.json
   "id": 15,
   "foodType": "food",
   "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
@@ -43,20 +42,8 @@
   "4 port japanskt ris, nykokt",
 "dijonsenap",
 "ev svarta sesamfrön"],
-  "foodImg": "id15.png",
+  "foodImg": "/Images/FoodImages/id15.png",
   "rating": 5
-=======
-  "id": 1,
-  "foodType": "mat",
-  "name": "",
-  "description": "",
-  "ingredience": [],
-  "method": [],
-  "portion": "",
-  "duration": "",
-  "serving": [],
-  "foodImg": ""
->>>>>>> kamil:src/Data/Json/mat.json
 },
  
 {
@@ -94,7 +81,7 @@
 "4 port ris",
 "2 citrongräs"
 ],
-  "foodImg": "id16.png",
+  "foodImg": "/Images/FoodImages/id16.png",
   "rating": 4
 },
  
@@ -139,7 +126,7 @@
   "serving": [
   "krispsallad"
   ],
-  "foodImg": "id17.png",
+  "foodImg": "/Images/FoodImages/id17.png",
   "rating": 4
 },
  
@@ -170,7 +157,7 @@
   "portion": "2 portioner",
   "duration": "15 min",
   "serving": [],
-  "foodImg": "id18.png",
+  "foodImg": "/Images/FoodImages/id18.png",
   "rating": 5
 },
  
@@ -200,7 +187,7 @@
   "portion": "4 portioner",
   "duration": "20 min",
   "serving": [],
-  "foodImg": "id20.png",
+  "foodImg": "/Images/FoodImages/id20.png",
   "rating": 5
 },
 
@@ -250,7 +237,7 @@
   "portion": "4 portioner",
   "duration": "2 timmar",
   "serving": [],
-  "foodImg": "id19.png",
+  "foodImg": "/Images/FoodImages/id19.png",
   "rating": 5
 },
  
@@ -293,7 +280,7 @@
   "4 port basmatiris",
 "2 dl matyoghurt"
   ],
-  "foodImg": "id21.png",
+  "foodImg": "/Images/FoodImages/id21.png",
   "rating": 4
 }
 ]

@@ -16,7 +16,7 @@
   "portion": "2 portioner",
   "duration": "5 min",
   "serving": [],
-  "foodImg": "id22.png",
+  "foodImg": "/Images/SmoothieImages/id22.png",
   "rating": 4
 },
  
@@ -42,7 +42,7 @@
   "portion": "4 portioner",
   "duration": "20 min",
   "serving": [],
-  "foodImg": "id23.png",
+  "foodImg": "/Images/SmoothieImages/id23.png",
   "rating": 5
 },
  
@@ -65,7 +65,7 @@
   "portion": "2 portioner",
   "duration": "10 min",
   "serving": [],
-  "foodImg": "id24.png",
+  "foodImg": "/Images/SmoothieImages/id24.png",
   "rating": 3
 },
  
@@ -89,7 +89,7 @@
   "portion": "2 portioner",
   "duration": "5 min",
   "serving": [],
-  "foodImg": "id25.png",
+  "foodImg": "/Images/SmoothieImages/id25.png",
   "rating": 3
 },
  
@@ -117,7 +117,7 @@
   "portion": "2 portioner",
   "duration": "",
   "serving": [],
-  "foodImg": "id26.png",
+  "foodImg": "/Images/SmoothieImages/id26.png",
   "rating": 4
 },
  
@@ -139,7 +139,7 @@
   "portion": "4 portioner",
   "duration": "",
   "serving": [],
-  "foodImg": "id27.png",
+  "foodImg": "/Images/SmoothieImages/id27.png",
   "rating": 5
 },
  
@@ -163,7 +163,7 @@
   "portion": "1 portioner",
   "duration": "10 min",
   "serving": [],
-  "foodImg": "id28.png",
+  "foodImg": "/Images/SmoothieImages/id28.png",
   "rating": 5
 }
 ]

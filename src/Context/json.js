@@ -8,7 +8,11 @@ const initialState = {
 
 let files = {
     username_password: require('../Data/Json/username_password.json'),
-    drinkData: require('../Data/Json/drinkData.json')
+    drinkData: require('../Data/Json/drinkData.json'),
+    dessertData: require('../Data/Json/dessertData.json'),
+    matData: require('../Data/Json/matData.json'),
+    popularData: require('../Data/Json/popularData.json'),
+    smoothieData: require('../Data/Json/smoothieData.json')
 }
 
 const jsonReducer = (currJsonState, action) => {
