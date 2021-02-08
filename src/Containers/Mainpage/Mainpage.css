@@ -1,7 +1,7 @@
 .mainpage{
 	position: absolute;
     display: grid;
-    margin: 0em 15em;
+    margin: 2em 15em;
 }
 
 .mainpage input{

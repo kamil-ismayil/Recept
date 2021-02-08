@@ -20,3 +20,17 @@
 .page .image{
     padding-left: 0px;
 }
+
+.image, .page, .data, .ingredient {
+height: fit-content;
+}
+
+.recepiesPage {
+    display: flex;
+    justify-content: space-around;
+    min-height: fit-content;
+    max-height: 50em;
+    min-width: 0em;
+    max-width: 50em;
+    background-color: rgb(4, 97, 179);
+}

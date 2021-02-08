@@ -24,10 +24,10 @@ const dessert = (props) => {
                 id++,
                 imagePath = `${process.env.PUBLIC_URL}`+x.foodImg,
 
-                <Link to={{pathname: '/recepter/dessert/'+x.id, state: {info: dessertInfo}}} >
+                <Link class="foodBox" to={{pathname: '/recepter/dessert/'+x.id, state: {info: dessertInfo}}} >
                     <div className="imagebox" >
-                        <img src={imagePath}/>
-                        <h5>{x.name}</h5>
+                        <img class="foodImage" src={imagePath}/>
+                        <h5 class="imgText">{x.name}</h5>
                     </div>       
                 </Link> 
             )

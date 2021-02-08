@@ -4,7 +4,9 @@ import './Header.css';
 const header = (props) => {
     return(
         <div className="header">
-            <img src={window.location.origin +"/Images/Header/header.png"} />
+            <div class="menuButton"></div>
+            {/* <img src={window.location.origin +"/Images/Header/header.png"} /> */}
+            <div class="welcome"> Welcome to yummie Recepies!</div>
         </div>
     )
 };

@@ -8,12 +8,12 @@ import './Page.css';
 const page = (props) => {
     
     return(
-        <div >
+        <div class="recepiesPage">
             <section className="page">
-                <div><Description data={props.location.state.info}/></div>
+                <div class="data"><Description data={props.location.state.info}/></div>
                 <div className="image"><Image data={props.location.state.info}/></div>
-                <div><Ingredient data={props.location.state.info}/></div>
-                <div><Method data={props.location.state.info}/></div>
+                <div class="ingredient"><Ingredient data={props.location.state.info}/></div>
+                <div class="method"><Method data={props.location.state.info}/></div>
             </section>
         </div>
     )

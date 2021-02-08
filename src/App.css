@@ -1,4 +1,27 @@
 .app{
-	position: absolute;
-	display: inline-block;
+	/* position: absolute; */
+	display:flex;
+	flex-direction: column;
 }
+
+/* 
+iPad storlek
+@media screen and (max-width: 56.25em) {
+	.app {
+		width: 900px;
+	}
+}
+
+iPhone storlek
+@media screen and (max-width: 37.5em) {
+	.app {
+		width: 600px;
+	}
+}
+
+även mindre
+@media screen and (max-width: 18.75em) {
+	.app {
+		width: 300px;
+	}
+} */
