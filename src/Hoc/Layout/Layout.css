@@ -1,6 +1,9 @@
 .navmain{
     border-style: solid;
     border-width: 1px;
- 
-    
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
 }

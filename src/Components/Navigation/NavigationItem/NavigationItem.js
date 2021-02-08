@@ -5,7 +5,7 @@ import './NavigationItem.css';
 const navigationItem = (props) => (
     <div className="navigationItem">
         <li className={props.cname}>
-            <NavLink to={props.link} style={{ textDecoration: 'none'}}>
+            <NavLink to={props.link} class="NavLink">
                 {props.children}
             </NavLink>
         </li>
