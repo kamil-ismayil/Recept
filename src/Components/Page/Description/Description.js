@@ -12,8 +12,8 @@ const description = (props) => {
     return(
         <div className="description">
             <h3>{props.data.name}</h3>
+            <button>Lägg till i favoriter</button>
             <p>{props.data.description}</p>
-            
         </div>
     )
 }
