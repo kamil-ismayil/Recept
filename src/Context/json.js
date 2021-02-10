@@ -12,7 +12,8 @@ let files = {
     dessertData: require('../Data/Json/dessertData.json'),
     matData: require('../Data/Json/matData.json'),
     popularData: require('../Data/Json/popularData.json'),
-    smoothieData: require('../Data/Json/smoothieData.json')
+    smoothieData: require('../Data/Json/smoothieData.json'), 
+    favoritData: require('../Data/Json/favoritData.json')
 }
 
 const jsonReducer = (currJsonState, action) => {
@@ -34,9 +35,10 @@ const useJson = () => {
     const readRequest = useCallback( (file_name, body) => {  
         dispatchJsonState({type: 'INIT'});
         let data = files[file_name];
-                
-        data!=null ? dispatchJsonState({type: 'READ', responseData: data}) 
-                   : dispatchJsonState({type: 'ERROR', errorMessage: "Something wrong with the file"});
+        
+        data!=null 
+            ? dispatchJsonState({type: 'READ', responseData: data}) 
+            : dispatchJsonState({type: 'ERROR', errorMessage: "Something wrong with the file"})       
     }, []);
 
     return {

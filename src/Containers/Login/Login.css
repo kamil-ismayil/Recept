@@ -1,4 +1,5 @@
 .main-form {
+<<<<<<< HEAD
 	height: 20em;
   width: 25em;
 	padding: 1em;
@@ -45,6 +46,39 @@
 }
 
 /* .login label, 
+=======
+  width: 40rem;
+  height: 20rem;
+  max-width: fit-content;
+  padding: 1em;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  display: flex;
+  grid-gap: 10px;
+  margin: 2em;
+  align-self: center;
+  background-color: white;
+}
+  
+  .login input {
+    padding: 0.1rem 0.25rem;
+    width: 80%;
+    border: none;
+    font: inherit;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .login button{
+    padding: 1rem auto;
+    width: fit-content;
+    
+    text-align: center;
+    margin: 0.5rem 8rem;
+  }
+  
+  .login label, 
+>>>>>>> a63191a9086fab3e65f1029006c85a17b3d1008a
   .login input 
   .login button{
     display: block;

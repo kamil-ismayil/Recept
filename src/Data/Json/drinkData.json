@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Pink gin med jordgubbar",
 		"description": "En mer somrig drink får man leta efter! Farligt god med en mjuk smak av gin och frisk smak av lemonad och jordgubbar.",
 		"ingredience": [
@@ -26,7 +26,7 @@
 
 	{
 		"id": 2,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Dry Martini, Mathin Lundgrens recept",
 		"description": "En klassiker som aldrig går ur tiden. ",
 		"ingredience": [
@@ -51,7 +51,7 @@
 
 	{
 		"id": 3,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Tom Collins, David Kringlunds recept",
 		"description": "Den smakar som en lemonad, vilket många uppskattar men också att man kan smaksätta den med vad man helst vill. Hallon, kaffe, ingefära eller fläder är alla smaker som går fint ihop med Tom Collins.",
 		"ingredience": [
@@ -75,7 +75,7 @@
 
 	{
 		"id": 4,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Sparkling hallonslush",
 		"description": "Mums - det här receptet är så enkelt och läskande gott! \n\nPerfekt till barnen en varm sommardag eller tillsätt lite citronvodka och ha som fördrink på festen.",
 		"ingredience": [
@@ -96,7 +96,7 @@
 
 	{
 		"id": 5,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Alkoholfri mojito",
 		"description": "Använd drinkmix till en alkoholfri mojito som är minst lika god som den vanliga!",
 		"ingredience": [
@@ -119,7 +119,7 @@
 
 	{
 		"id": 6,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Alkoholfri drink med grape",
 		"description": "Vitt vin, tonic och grape blir en god och läskande alkoholfri fördrink till festen.",
 		"ingredience": [
@@ -139,7 +139,7 @@
 
 	{
 		"id": 7,
-		"foodType": ["drink"],
+		"foodType": ["dryck"],
 		"name": "Alkoholfri tonicdrink",
 		"description": "En alkoholfri tonicdrink med smak av gurka. Svalkande och gott varma sommardagar.",
 		"ingredience": [

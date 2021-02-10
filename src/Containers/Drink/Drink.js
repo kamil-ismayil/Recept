@@ -9,21 +9,18 @@ const drink = (props) => {
     const [data, setData] = useState();
     let drinkInfo = {};
     let imagePath;
+    let id = 0; 
 
     useEffect(() => {
         readJsonContext.readJson('drinkData');
         setData(readJsonContext.data);
     },[data]);
 
-    function enlargeImage(x) {
-        x.height = "64px";
-        x.width = "64px";
-    } 
-
     const imageElements = data!=null &&
         data.map(x=>{
             return (
-                drinkInfo = data[x.id-1],
+                drinkInfo = data[id],
+                id++,
                 imagePath = `${process.env.PUBLIC_URL}`+x.foodImg,
 
                 <Link class="foodBox" to={{pathname: '/recepter/dryck/'+x.id, state: {info: drinkInfo}}} >

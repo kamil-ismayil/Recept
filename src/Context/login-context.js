@@ -24,8 +24,6 @@ const loginContextProvider = (props) => {
 
     useEffect(() => {
         if(data){
-            console.log("login-context ->  useEffect");
-            console.log(data);
             let jsonData = [...data];
             
             jsonData.map(response => {

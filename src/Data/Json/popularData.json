@@ -1,6 +1,6 @@
 [{
   "id": 29,
-  "foodType":["popular", "dessert"],
+  "foodType": "dessert",
   "name": "Chokladglass med baileys och valnötskaramell",
   "description": "Krämig chokladglass som enkelt görs utan glassmaskin. För att sätta en liten extra touch på glassen smaksätter Lotta den med Baileys och knäckig valnötskaramell.",
   "ingredience": [
@@ -30,7 +30,7 @@
  
 {
   "id": 30,
-  "foodType": ["popular", "dessert"],
+  "foodType": "dessert",
   "name": "Vit chokladterrin med sval hallonsås",
   "description": "En krämig chokladterrin med sval hallonsås kommer göra sig riktigt fint som dessert. \n\nReceptet är från tv-programmet Halv åtta hos mig, och recepten därifrån är komponerade av amatörkockar. Köket.se kan därför inte gå i god för receptet.",
   "ingredience": [
@@ -65,7 +65,7 @@
  
 {
   "id": 31,
-  "foodType": ["popular", "food"],
+  "foodType": "mat",
   "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
   "description": "Det här en riktig favorit hemma hos Jennie. Tonkatsu - japansk schnitzel som serveras med Jennies specialsallad där spetskål, majonnäs och sesam möts i en fantastisk kombo.",
   "ingredience": [
@@ -113,7 +113,7 @@
  
 {
   "id": 32,
-  "foodType": ["popular", "food"],
+  "foodType": "popular",
   "name": "Omelett med morot",
   "description": "\"Den här omeletten med morot är perfekt att svänga ihop som en snabb och enkel lunch! Morot är bra att alltid ha i kylen. Håller hur länge som helst!\" /Jessica Frej",
   "ingredience": [
@@ -144,7 +144,7 @@
  
 {
   "id": 33,
-  "foodType": ["popular", "drink"],
+  "foodType": "popular",
   "name": "Pink gin med jordgubbar",
 		"description": "En mer somrig drink får man leta efter! Farligt god med en mjuk smak av gin och frisk smak av lemonad och jordgubbar.",
 		"ingredience": [
@@ -169,7 +169,7 @@
  
 {
   "id": 34,
-  "foodType": ["popular", "drink"],
+  "foodType": "popular",
   "name": "Sparkling hallonslush",
 		"description": "Mums - det här receptet är så enkelt och läskande gott! \n\nPerfekt till barnen en varm sommardag eller tillsätt lite citronvodka och ha som fördrink på festen.",
 		"ingredience": [
@@ -190,7 +190,7 @@
  
 {
   "id": 35,
-  "foodType": ["popular", "smoothie"],
+  "foodType": "popular",
   "name": "Jordgubbssmoothie",
   "description": "En mättande och fräsch smoothie som passar utmärkt till frukost, mellanmål eller lyxig brunch.",
   "ingredience": [
@@ -216,7 +216,7 @@
 
 {
   "id": 36,
-  "foodType": ["popular", "smoothie"],
+  "foodType": "popular",
   "name": "Smoothie med honung",
   "description": "Ett bra mellanmål, en lyxig frukost - det finns alltid en bra anledning till att mixa ihop en smoothie. Ta det du har hemma. Här är en med yoghurt, glass och honung.",
   "ingredience": [
