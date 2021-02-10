@@ -1,14 +1,15 @@
 .main-form {
-  width: 25rem;
+  width: 40rem;
   height: 20rem;
-  max-width: 80%;
+  max-width: fit-content;
   padding: 1em;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   display: flex;
   grid-gap: 10px;
   margin: 2em;
-align-self: center;
+  align-self: center;
+  background-color: white;
 }
   
   .login input {
@@ -22,10 +23,10 @@ align-self: center;
   
   .login button{
     padding: 1rem auto;
-    max-width: 70%;
+    width: fit-content;
+    
     text-align: center;
     margin: 0.5rem 8rem;
-    
   }
   
   .login label, 

@@ -1,18 +1,35 @@
-import React, { useEffect} from 'react';
+import React, { useEffect, useContext, useState, useRef} from 'react';
 import './Description.css';
+import {LoginContext} from '../../../Context/login-context';
+import {FavoritAddContext} from '../../../Context/favorit-context';
 
 const description = (props) => {
+    const loginContext = useContext(LoginContext);
+    const favoritContext = useContext(FavoritAddContext);
+    const [data, setData] = useState();
+    let btnRef = useRef();
     
     useEffect( ()=>{
-        console.log("Description.js");
-        console.log(JSON.stringify(props.data))
+        setData(props.data);  
+    },[data])
 
-    })
+    const addToFavorites = () => {
+        favoritContext.addFavorit(props.data);
+        if(btnRef.current){
+            btnRef.current.setAttribute("disabled", "disabled");
+        }
+        
+    }
 
     return(
         <div className="description">
             <h3>{props.data.name}</h3>
-            <button>Lägg till i favoriter</button>
+            <button className={props.hide=="true" ? "hide" : "show"}
+                disabled={loginContext.isLogged ? false : true} 
+                onClick={addToFavorites}
+                ref={btnRef} >
+                    Lägg till i favoriter
+            </button>
             <p>{props.data.description}</p>
         </div>
     )

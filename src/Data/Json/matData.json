@@ -1,6 +1,6 @@
 [{
   "id": 15,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Tonkatsu - japansk schnitzel med krämig kålsallad",
   "description": "Det här en riktig favorit hemma hos Jennie. Tonkatsu - japansk schnitzel som serveras med Jennies specialsallad där spetskål, majonnäs och sesam möts i en fantastisk kombo.",
   "ingredience": [
@@ -48,7 +48,7 @@
  
 {
   "id": 16,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Chicken cashew",
   "description": "Stekt kyckling med rostade cashewnötter - en riktig favorit från thai kiosken som går lätt att laga själv.",
   "ingredience": [
@@ -87,7 +87,7 @@
  
 {
   "id": 17,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Lasagne de luxe",
   "description": "\"En krämig och smakrik lasagne. Min hemlighet är att jag varvar alla lager med extra ost. Jag lovar att den kommer att göra succé! \"/Jenny",
   "ingredience": [
@@ -132,7 +132,7 @@
  
 {
   "id": 18,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Omelett med morot",
   "description": "\"Den här omeletten med morot är perfekt att svänga ihop som en snabb och enkel lunch! Morot är bra att alltid ha i kylen. Håller hur länge som helst!\" /Jessica Frej",
   "ingredience": [
@@ -163,7 +163,7 @@
  
  {
   "id": 19,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Spaghetti carbonara",
   "description": "Spaghetti carbonara är en snabblagad italiensk klassiker. En äkta carbonara görs utan grädde och blir krämig tack vare en skvätt pastavatten i såsen. Snåla inte med svartpepparn och använd nymalen från kvarn. ",
   "ingredience": [
@@ -193,7 +193,7 @@
 
 {
   "id": 20,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Gravad och halstrad skreitorsk",
   "description": "Vad sägs som en härlig middag bestående av svartpeppargravad och halstrad skreitorsk med ägg, amadinepotatis, savoykål och pepparrot?",
   "ingredience": [
@@ -243,7 +243,7 @@
  
 {
   "id": 21,
-  "foodType": "food",
+  "foodType": "mat",
   "name": "Halloumi tikka masala",
   "description": "Lättlagad och krämig gryta med massor av smak. Vanligtvis görs rätten med kyckling, här byter Jennie mot stekta halloumitärningar för en vegetarisk variant.",
   "ingredience": [

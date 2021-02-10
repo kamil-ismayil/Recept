@@ -11,6 +11,7 @@ import Mat from './Containers/Mat/Mat';
 import Drink from './Containers/Drink/Drink';
 import Page from './Components/Page/Page';
 import Dessert from './Containers/Dessert/Dessert';
+import Favorit from './Containers/Favorit/Favorit';
 
 function App(){
 		return (
@@ -24,6 +25,7 @@ function App(){
 						<Route path="/recepter" exact component={Recepter}/>    
 						<Route path="/login" exact component={Login}/>   
 						
+						<Route path="/recepter/favorit" exact component={Favorit}/>
 						<Route path="/recepter/mat" exact component={Mat}/>
 						<Route path="/recepter/dryck" exact component={Drink}/>    
 						<Route path="/recepter/smoothie" exact component={Smoothie}/>     

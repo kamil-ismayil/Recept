@@ -10,7 +10,7 @@ const page = (props) => {
     return(
         <div class="recepiesPage">
             <section className="page">
-                <div class="data"><Description data={props.location.state.info}/></div>
+                <div class="data"><Description hide={props.location.state.hide} data={props.location.state.info}/></div>
                 <div className="image"><Image data={props.location.state.info}/></div>
                 <div class="ingredient"><Ingredient data={props.location.state.info}/></div>
                 <div class="method"><Method data={props.location.state.info}/></div>

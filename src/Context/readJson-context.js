@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, {useCallback} from 'react';
 import useJson from './json';
 
 export const ReadJsonContext = React.createContext({
@@ -7,10 +7,11 @@ export const ReadJsonContext = React.createContext({
 });
 
 const readJsonContextProvider = (props) => {
-    const {data, readRequest} = useJson(); 
+    const {data, readRequest, writeRequest} = useJson(); 
 
     const readHandler = useCallback( (fileName) => {
         readRequest(fileName, '');
+        
     },[]); 
 
     return (

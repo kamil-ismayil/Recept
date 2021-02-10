@@ -1,4 +1,4 @@
-.dessert, .drink, .popular, .smoothie, .mat{
+.dessert, .drink, .popular, .smoothie, .mat, .favorit{
 	display: grid;
 	grid-template-columns: 15em 15em 15em;
 	grid-gap: 1em;
