@@ -17,11 +17,10 @@ const login = (props) => {
     
     return (
         <section className="main-form">            
-            {loginContext.isLogged && <p>Logged in</p>}
-
+            {loginContext.isLogged && <p class="loginName">You are logged in as: {enteredUserName}</p>}
+            <h2>Please login to continue..</h2>
             <form onSubmit={loginHandler} >                
                 <div className="login">
-                    <h2>Please login to continue..</h2>
                     <label htmlFor="username">Username</label>
                     <input type="text" id="username" value={enteredUserName} 
                             onChange={event => setEnteredUserName(event.target.value)} />
@@ -29,9 +28,9 @@ const login = (props) => {
                 <div className="login">
                     <label htmlFor="password">Password</label>           
                     <input type="password" id="password" value={enteredPassword} 
-                            onChange={event => setEnteredPassword(event.target.value)} />
-                    <button type="submit" >Sign in</button>        
+                            onChange={event => setEnteredPassword(event.target.value)} />  
                 </div> 
+                <button class="loginButton" type="submit" >Sign in</button> 
             </form>            
         </section>
     )

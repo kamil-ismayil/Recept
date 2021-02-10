@@ -1,36 +1,99 @@
 .page{
-    display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 200px 200px;
-    height: 450px;
-    grid-gap: 5px;
-    background-color:  rgb(236, 240, 243);
-    justify-content: center;
-    align-content: center;
-    padding-left: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding-top: 0px;
+    height: fit-content;
+    width: 20em;
+    margin: 1em 0em 0em 2em;
+    vertical-align: flex-start;
+}
+.div1, .div2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4em;
 }
 
-.page div{
-    background-color: rgba(253, 253, 253, 0.8);
-    text-align: left;
-    padding-left: 5px;
-}
-
-.page .image{
+/* .page .image{
     padding-left: 0px;
-}
+    justify-self: flex-start;
+    margin-bottom: 5em;
+    border-radius: 50px;
+} */
 
 .image, .page, .data, .ingredient {
-height: fit-content;
+    display: flex;
+    height: fit-content;
 }
 
-.recepiesPage {
+/* .recepiesPage {
     display: flex;
     justify-content: space-around;
+    justify-self: center;
     min-height: fit-content;
-    max-height: 50em;
     min-width: 0em;
-    max-width: 50em;
-    background-color: rgb(4, 97, 179);
+    max-width: 30em;
+} */
+
+.recepiePage {
+    display: grid;
+    margin: 1em 1em 0em 0em;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 1em;
+    height: fit-content;
+    width: 25em;
+    border-width: 0.2em;
+    border-color: orange;
+    border-style: solid;
+} 
+.recepieImage {
+    display: flex;
+    border-radius: 50px;
+    max-width: 25em;
+}
+
+/* iPad storlek */
+@media screen and (max-width: 56.25em) {
+    .div1, .div2 {
+        margin-left: 3em;
+    }
+    .recepieImage {
+        max-width: 13em;
+        max-height: 8em;
+    }
+
+    .recepiePage {
+        max-width: 13em;
+    } 
+
+    .page {
+        max-width: 20em;
+    }
+}
+
+/* iPhone storlek */
+@media screen and (max-width: 37.5em) {
+    .div1, .div2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3em;
+    }
+    .recepieImage {
+        max-width: 10em;
+        max-height: 5em;
+    }
+
+    .recepiePage {
+        max-width: 10em;
+    } 
+
+    .page {
+        max-width: 20em;
+    }
+}
+
+/* även mindre */
+@media screen and (max-width: 18.75em) {
+
 }

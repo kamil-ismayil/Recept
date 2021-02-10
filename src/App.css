@@ -4,6 +4,10 @@
 	flex-direction: column;
 }
 
+:root{
+	background-color: #000000d3;
+}
+
 /* 
 iPad storlek
 @media screen and (max-width: 56.25em) {
