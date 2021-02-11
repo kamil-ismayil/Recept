@@ -12,8 +12,7 @@ let files = {
     dessertData: require('../Data/Json/dessertData.json'),
     matData: require('../Data/Json/matData.json'),
     popularData: require('../Data/Json/popularData.json'),
-    smoothieData: require('../Data/Json/smoothieData.json'), 
-    favoritData: require('../Data/Json/favoritData.json')
+    smoothieData: require('../Data/Json/smoothieData.json')
 }
 
 const jsonReducer = (currJsonState, action) => {
