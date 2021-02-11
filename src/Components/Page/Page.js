@@ -11,7 +11,9 @@ const page = (props) => {
 			<section class="page">
 				<div class="div1">
 					<div class="data">
-						<Description data={props.location.state.info} />
+						<Description 
+						hide={props.location.state.hide}
+						data={props.location.state.info} />
 					</div>
 					<div className="image">
 						<Image data={props.location.state.info} />
