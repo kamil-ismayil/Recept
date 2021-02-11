@@ -1,15 +1,72 @@
-.mainpage{
-	position: absolute;
-    display: grid;
-    margin: 2em 15em;
+.mainpage {
+	display: grid;
+	margin: 3em 0em 0em 6em;
+	padding: 0em;
+	top: 0px;
+	left: 0px;
+	min-width: 30%;
+	max-width: 70%;
 }
 
-.mainpage input{
-    height: 100%;
-    width: 70%;
-    border: 10px solid gray;   
+.infoContainer {
+	margin: 0em;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: rgba(240, 248, 255, 0.959);
+	padding: 2em;
+	border-radius: 50px;
+}
+.infoText {
+	width: 100%;
+	margin: 0em;
+	padding: 0px;
+	text-align: left;
 }
 
-.mainpage p{
-    text-align: justify;
+.mainpage input {
+	margin-top: 2em;
+    margin-bottom: 5em;
+	height: 3em;
+	min-width: 60%;
+	max-width: 70%;
+	border: 0.3em solid rgb(255, 136, 0);
+	border-radius: 50px;
+}
+
+.mainpage input:focus {
+	margin-top: 2em;
+    margin-bottom: 5em;
+	height: 3em;
+	min-width: 60%;
+	max-width: 70%;
+	border: 0.3em solid rgba(25, 59, 252, 0.746);
+	border-radius: 50px;
+}
+
+/* iPad storlek */
+@media screen and (max-width: 56.25em) {
+    .infoContainer {
+        max-width: 100%;
+	}
+    .mainpage {
+        max-width: 70%;
+    }
+}
+
+/* iPhone storlek */
+@media screen and (max-width: 37.5em) {
+	.infoContainer {
+        max-width: 90%;
+	}
+    .mainpage {
+        margin-left: 3.8em;
+    }
+}
+
+/* även mindre */
+@media screen and (max-width: 18.75em) {
+	.infoContainer {
+
+	}
 }

@@ -7,3 +7,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.layoutContainer {
+    width: 100%;
+}
+
+Header {
+    width: 100%;
+}

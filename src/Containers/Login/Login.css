@@ -1,53 +1,86 @@
 .main-form {
-  width: 40rem;
-  height: 20rem;
-  max-width: fit-content;
-  padding: 1em;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  display: flex;
-  grid-gap: 10px;
-  margin: 2em;
-  align-self: center;
-  background-color: white;
+	height: 20em;
+  width: 25em;
+	padding: 1em;
+	border-radius: 15px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+	display: flex;
+  flex-direction: column;
+	margin: 4em 0em 0em 0em;
+	align-self: center;
+	justify-content: center;
+	background-color: rgba(240, 248, 255, 0.877);
 }
-  
-  .login input {
-    padding: 0.1rem 0.25rem;
-    width: 80%;
-    border: none;
-    font: inherit;
-    border-bottom: 2px solid #ccc;
-    margin-bottom: 1rem;
-  }
-  
-  .login button{
-    padding: 1rem auto;
-    width: fit-content;
-    
-    text-align: center;
-    margin: 0.5rem 8rem;
-  }
-  
-  .login label, 
+.login {
+  display: flex;
+  flex-direction: column;
+}
+.login input {
+	padding: 0.1rem 0.25rem;
+  min-width: 50%;
+	max-width: 90%;
+	border-width: 0.2em;
+	border-color: rgb(255, 136, 0);
+	font: inherit;
+	border-radius: 50px;
+	background-color: aliceblue;
+	margin-bottom: 1rem;
+  margin-left: 2em;
+}
+
+.loginButton {
+	padding: 1rem auto;
+	max-width: 18em;
+	max-height: 8em;
+	text-align: center;
+	margin: 0.5rem 8rem;
+	border-radius: 50px;
+	background-color: rgb(255, 136, 0);
+	color: black;
+}
+
+.loginButton:focus {
+	background-color: rgba(25, 59, 252, 0.746);
+	color: aliceblue;
+}
+
+/* .login label, 
   .login input 
   .login button{
     display: block;
     width: 100%;
-  }
-  
-  .login input:focus{
-    outline: none; 
-    border-block-color: #ff2058;
-  }
+  } */
 
-  .buttonContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    width: 100%;
-  }
+.login input:focus {
+	border-width: 0.2em;
+	border-color: rgba(25, 59, 252, 0.746);
+	border-radius: 50px;
+}
 
-  .bRow {
-    width: 100px;
-  }
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+.bRow {
+	width: 100px;
+}
+
+.loginName {
+  text-align: center;
+  font-size: 1em;
+}
+
+/* iPad storlek */
+@media screen and (max-width: 56.25em) {
+}
+
+/* iPhone storlek */
+@media screen and (max-width: 37.5em) {
+}
+
+/* även mindre */
+@media screen and (max-width: 18.75em) {
+}

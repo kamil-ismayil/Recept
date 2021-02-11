@@ -25,8 +25,9 @@ const login = (props) => {
                     <label htmlFor="password">Lösenord:</label>           
                     <input type="password" id="password" value={enteredPassword} 
                             onChange={event => setEnteredPassword(event.target.value)} />
-                    <button type="submit" >Logga in</button>        
+                          
                 </div> 
+                <button class="loginButton" type="submit" >Logga in</button>  
             </form>            
         </section>
     )

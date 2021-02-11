@@ -7,7 +7,7 @@ import Aux from "../Aux_/Aux_";
 
 const layout = (props) => {
 	return (
-		<Aux>
+		<Aux class="layoutContainer">
 			<Header />
 			<body class="mainContainer">
 				<NavigationItems />

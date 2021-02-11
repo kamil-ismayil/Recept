@@ -3,10 +3,11 @@
 	grid-template-columns: 15em 15em 15em;
 	grid-gap: 1em;
 	padding: 2em 2em 2em 4em;
-	background-color: #000000d3;
+	/* background-color: #000000d3; */
 	justify-content: space-evenly;
 	width: 100%;
 	height: 100%;
+	margin-top: 1em;
 }
 
 .foodBox {
@@ -24,7 +25,7 @@
 	border-style: solid;
 	border-width: 4px;
 	/* margin-left: 1.5em; */
-	background-color: aliceblue;
+	background-color: rgba(240, 248, 255, 0.959);
 	height: 12em;
 }
 
@@ -44,9 +45,10 @@
 }
 
 @media screen and (max-width: 56.25em) {
-	.dessert, .drink, .popular,  .smoothie, .mat {
+	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
 		grid-template-columns: 15em 15em;
 		padding-left: 3em;
+		margin-top: 1em;
     }
 
 		 .imagebox {
@@ -62,9 +64,10 @@
 }
 
 @media screen and (max-width: 37.5em) {
-	.dessert, .drink, .popular,  .smoothie, .mat {
+	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
 		grid-template-columns: 18em;
 		padding-left: 5em;
+		margin-top: 1em;
 	}
 
 	 .imagebox {

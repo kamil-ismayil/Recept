@@ -24,7 +24,7 @@ const description = (props) => {
     }
 
     return(
-        <div className="description">
+        <div className="description"  class="recepiePage">
             <h3>{props.data.name}</h3>
             <button className={props.hide=="true" ? "hide" : "show"}
                 disabled={(loggedIn & !this.disabled) ? false : true} 
