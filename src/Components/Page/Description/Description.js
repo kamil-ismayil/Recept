@@ -8,9 +8,12 @@ const description = (props) => {
     const favoritContext = useContext(FavoritAddContext);
     const [data, setData] = useState();
     let btnRef = useRef();
+    const [loggedIn, setLoggedIn] = useState(false);
     
     useEffect( ()=>{
         setData(props.data);  
+        setLoggedIn(loginContext.isLogged);
+        console.log("kamil");
     },[data])
 
     const addToFavorites = () => {
@@ -18,14 +21,13 @@ const description = (props) => {
         if(btnRef.current){
             btnRef.current.setAttribute("disabled", "disabled");
         }
-        
     }
 
     return(
         <div className="description">
             <h3>{props.data.name}</h3>
             <button className={props.hide=="true" ? "hide" : "show"}
-                disabled={loginContext.isLogged ? false : true} 
+                disabled={(loggedIn & !this.disabled) ? false : true} 
                 onClick={addToFavorites}
                 ref={btnRef} >
                     Lägg till i favoriter
