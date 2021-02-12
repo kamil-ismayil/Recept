@@ -13,7 +13,8 @@ const page = (props) => {
 
 				<div class="div1">
 					<div class="data">
-						<Description data={props.location.state.info} />
+						<Description data={props.location.state.info}
+									 hide ={props.location.state.hide} />
 					</div>
 					<div className="image">
 						<Image data={props.location.state.info} />
