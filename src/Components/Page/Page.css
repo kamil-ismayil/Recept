@@ -4,96 +4,95 @@
     justify-content: space-around;
     padding-top: 0px;
     height: fit-content;
-    width: 20em;
-    margin: 1em 0em 0em 2em;
+    width: 20rem;
+    margin: 1rem 0rem 0rem 3rem;
     vertical-align: flex-start;
+    justify-content: center;
 }
 .div1, .div2 {
     display: flex;
     flex-direction: row;
-    margin-left: 4em;
+    margin-left: 4rem;
 }
-
-/* .page .image{
-    padding-left: 0px;
-    justify-self: flex-start;
-    margin-bottom: 5em;
+.div3 {
+    background-color: aliceblue;
+    height: 30rem;
+    width: 20rem;
     border-radius: 50px;
-} */
+    border-width: 0.2rem;
+    border-color: rgb(255, 136, 0);
+    border-style: solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+}
 
 .image, .page, .data, .ingredient {
     display: flex;
     height: fit-content;
+    padding: 0px;
 }
-
-/* .recepiesPage {
-    display: flex;
-    justify-content: space-around;
-    justify-self: center;
-    min-height: fit-content;
-    min-width: 0em;
-    max-width: 30em;
-} */
 
 .recepiePage {
     display: grid;
-    margin: 1em 1em 0em 0em;
+    margin: 1rem 1rem 0rem 0rem;
     background-color: aliceblue;
     border-radius: 50px;
-    padding: 1em;
+    padding: 1rem;
     height: fit-content;
-    width: 25em;
-    border-width: 0.2em;
-    border-color: orange;
+    width: 25rem;
+    border-width: 0.2rem;
+    border-color: rgb(255, 136, 0);
     border-style: solid;
 } 
+
 .recepieImage {
     display: flex;
     border-radius: 50px;
-    max-width: 25em;
+    max-width: 25rem;
 }
 
 /* iPad storlek */
-@media screen and (max-width: 56.25em) {
+@media screen and (max-width: 56.25rem) {
     .div1, .div2 {
-        margin-left: 3em;
+        margin-left: 3.5rem;
     }
     .recepieImage {
-        max-width: 13em;
-        max-height: 8em;
+        max-width: 13rem;
+        max-height: 8rem;
     }
 
     .recepiePage {
-        max-width: 13em;
+        max-width: 13rem;
     } 
 
     .page {
-        max-width: 20em;
+        max-width: 20rem;
     }
 }
 
 /* iPhone storlek */
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 37.5rem) {
     .div1, .div2 {
         display: flex;
         flex-direction: column;
-        margin-left: 3em;
+        margin-left: 3rem;
     }
     .recepieImage {
-        max-width: 10em;
-        max-height: 5em;
+        max-width: 10rem;
+        max-height: 5rem;
     }
 
     .recepiePage {
-        max-width: 10em;
+        max-width: 10rem;
     } 
 
     .page {
-        max-width: 20em;
+        max-width: 20rem;
     }
 }
 
 /* även mindre */
-@media screen and (max-width: 18.75em) {
+@media screen and (max-width: 18.75rem) {
 
 }

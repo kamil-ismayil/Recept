@@ -6,12 +6,9 @@
 .mainContainer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .layoutContainer {
-    width: 100%;
-}
-
-Header {
     width: 100%;
 }
