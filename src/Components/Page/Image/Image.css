@@ -1,12 +1,12 @@
 .image img{
-    width: 25em;
-    height: 12.5em;
+    width: 25rem;
+    height: 12.5rem;
 }
 
 
 @media screen and (max-width: 18.75em) {
 	.image img {
-		width: 10em;
-		height: 10em;
+		width: 10rem;
+		height: 10rem;
 	}
 }

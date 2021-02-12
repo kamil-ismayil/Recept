@@ -1,13 +1,13 @@
 .dessert, .drink, .popular, .smoothie, .mat, .favorit{
 	display: grid;
-	grid-template-columns: 15em 15em 15em;
-	grid-gap: 1em;
-	padding: 2em 2em 2em 4em;
+	grid-template-columns: 15rem 15rem 15rem;
+	grid-gap: 1rem;
+	padding: 2rem 2rem 2rem 4rem;
 	/* background-color: #000000d3; */
 	justify-content: space-evenly;
 	width: 100%;
 	height: 100%;
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 .foodBox {
@@ -19,19 +19,19 @@
 }
 
  .imagebox {
-	width: 14em;
+	width: 14rem;
 	border-radius: 15px;
 	border-color: rgb(255, 136, 0);
 	border-style: solid;
 	border-width: 4px;
 	/* margin-left: 1.5em; */
 	background-color: rgba(240, 248, 255, 0.959);
-	height: 12em;
+	height: 12rem;
 }
 
  .foodImage {
-	width: 14em;
-	height: 8em;
+	width: 14rem;
+	height: 8rem;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -39,59 +39,59 @@
 .imgText {
 	color: #000;
 	text-align: center;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 	height: fit-content;
 }
 
-@media screen and (max-width: 56.25em) {
+@media screen and (max-width: 56.25rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
-		grid-template-columns: 15em 15em;
-		padding-left: 3em;
-		margin-top: 1em;
+		grid-template-columns: 15rem 15rem;
+		padding-left: 3rem;
+		margin-top: 1rem;
     }
 
 		 .imagebox {
-			width: 13em;
+			width: 13rem;
 			border-radius: 15px;
 			/* margin-left: 1.5em; */
 		}
 		
 		.foodImage {
-			width: 13em;
-			height: 7.5em;
+			width: 13rem;
+			height: 7.5rem;
 		}
 }
 
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 37.5rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
-		grid-template-columns: 18em;
-		padding-left: 5em;
-		margin-top: 1em;
+		grid-template-columns: 18rem;
+		padding-left: 5rem;
+		margin-top: 1rem;
 	}
 
 	 .imagebox {
-		width: 11em;
+		width: 11rem;
 		border-radius: 15px;
 		/* margin-left: 2.5em; */
 	}
 	
 	.foodImage {
-		width: 11em;
-		height: 6em;
+		width: 11rem;
+		height: 6rem;
 	}
 }
 
-@media screen and (max-width: 18.75em) {
+@media screen and (max-width: 18.75rem) {
 	 .imagebox {
-		width: 7em;
+		width: 7rem;
 		border-radius: 15px;
 		/* margin-left: 2.5em; */
 	}
 	
 	.foodImage {
-		width: 7em;
-		height: 3.5em;
+		width: 7rem;
+		height: 3.5rem;
 	}
 
 }

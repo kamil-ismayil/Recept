@@ -1,7 +1,7 @@
 .mainpage {
 	display: grid;
-	margin: 3em 0em 0em 6em;
-	padding: 0em;
+	margin: 3rem 0rem 0rem 6rem;
+	padding: 0rem;
 	top: 0px;
 	left: 0px;
 	min-width: 30%;
@@ -9,64 +9,63 @@
 }
 
 .infoContainer {
-	margin: 0em;
+	margin: 0rem;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	background-color: rgba(240, 248, 255, 0.959);
-	padding: 2em;
+	padding: 2rem;
+	border: 0.2rem solid rgb(255, 136, 0);
 	border-radius: 50px;
 }
 .infoText {
 	width: 100%;
-	margin: 0em;
+	margin: 0rem;
 	padding: 0px;
 	text-align: left;
 }
 
 .mainpage input {
-	margin-top: 2em;
-    margin-bottom: 5em;
-	height: 3em;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	height: 2rem;
 	min-width: 60%;
 	max-width: 70%;
-	border: 0.3em solid rgb(255, 136, 0);
+	border: 0.2rem solid rgb(255, 136, 0);
 	border-radius: 50px;
 }
 
 .mainpage input:focus {
-	margin-top: 2em;
-    margin-bottom: 5em;
-	height: 3em;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	height: 2rem;
 	min-width: 60%;
 	max-width: 70%;
-	border: 0.3em solid rgba(25, 59, 252, 0.746);
+	border: 0.2rem solid rgba(25, 59, 252, 0.746);
 	border-radius: 50px;
 }
 
 /* iPad storlek */
-@media screen and (max-width: 56.25em) {
-    .infoContainer {
-        max-width: 100%;
+@media screen and (max-width: 56.25rem) {
+	.infoContainer {
+		max-width: 100%;
 	}
-    .mainpage {
-        max-width: 70%;
-    }
+	.mainpage {
+		max-width: 70%;
+	}
 }
 
 /* iPhone storlek */
-@media screen and (max-width: 37.5em) {
+@media screen and (max-width: 37.5rem) {
 	.infoContainer {
-        max-width: 90%;
+		max-width: 90%;
 	}
-    .mainpage {
-        margin-left: 3.8em;
-    }
+	.mainpage {
+		margin-left: 3.8rem;
+	}
 }
 
 /* även mindre */
-@media screen and (max-width: 18.75em) {
-	.infoContainer {
-
-	}
+@media screen and (max-width: 18.75rem) {
+	
 }

@@ -10,7 +10,10 @@ const mainpage = (props) => {
     return(
         <div className="mainpage">
             <div className="infoContainer">
+                <h2>Välkommen till yummie.se!</h2>
+            <br/>
                 <h3>Mat</h3> 
+                <br/>
                 <p class="infoText">Alla ställer vi oss frågan, vad ska vi äta till middag idag? För att du ska slippa fundera på den frågan så har vi förbättrat vår sida, lyssnat på våra kunders tips och önskemål och samlat alla våra recept på mat här! Här kan du enkelt söka recept efter den huvudingrediens du vill ha, eller inspireras av olika typer av recept. Under typ av recept hittar du allt ifrån grytor, Tacos, pannkakor till soppor.
                 <br/>
                 <br/>   
@@ -18,10 +21,10 @@ const mainpage = (props) => {
                 </p> 
             </div>
                 
-            <div className="search">   
+            {/* <div className="search">   
                 <input type="text" value={search} 
                             onChange={event => setSearch(event.target.value)} />
-            </div>                 
+            </div>                  */}
         </div>  
           
     )

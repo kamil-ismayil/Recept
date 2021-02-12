@@ -8,25 +8,30 @@ const description = (props) => {
     const favoritContext = useContext(FavoritAddContext);
     const [data, setData] = useState();
     let btnRef = useRef();
-    const [loggedIn, setLoggedIn] = useState(false);
-
+    let addedToFavorit=false;
+    
     useEffect( ()=>{
         setData(props.data);  
-        setLoggedIn(loginContext.isLogged);        
+
+        favoritContext.data.map(x=>{
+            x.id==props.data.id && btnRef.current.setAttribute("disabled", "disabled");
+        });
+
     },[data])
 
     const addToFavorites = () => {
         favoritContext.addFavorit(props.data);
         if(btnRef.current){
             btnRef.current.setAttribute("disabled", "disabled");
-        }  
+        }
+        //addedToFavorit = true;
     }
 
     return(
         <div className="description"  class="recepiePage">
             <h3>{props.data.name}</h3>
             <button className={props.hide=="true" ? "hide" : "show"}
-                disabled={loggedIn ? false : true} 
+                disabled={loginContext.isLogged ? false : true} 
                 onClick={addToFavorites}
                 ref={btnRef}
             >
