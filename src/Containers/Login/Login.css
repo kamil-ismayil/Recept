@@ -34,6 +34,29 @@ h2 {
 	margin-bottom: 1rem;
 }
 
+button {
+	padding: 1rem auto;
+	width: 8rem;
+  height: 3rem;
+	text-align: center;
+	margin: 0.5rem 8rem;
+	border-radius: 15px;
+	background-color: rgb(255, 136, 0);
+	color: black;
+	margin-left: 0rem;
+	font-size: 1rem;
+}
+
+button:focus {
+	background-color: rgba(25, 59, 252, 0.746);
+	color: aliceblue;
+}
+
+button:disabled {
+	background-color: #0000007c;
+	color: aliceblue;
+}
+
 .loginButton {
 	padding: 1rem auto;
 	width: 5rem;

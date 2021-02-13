@@ -7,17 +7,19 @@
 	min-width: 30%;
 	max-width: 60%;
 	height: 30rem;
+	margin-bottom: 2rem;
 }
 
 .infoContainer {
-	margin: 0rem;
+	margin: 0rem 0rem 2rem 0rem;
 	left: 0px;
 	top: 0px;
 	width: 100%;
 	background-color: rgba(240, 248, 255, 0.959);
 	padding: 2rem;
 	border: 0.2rem solid rgb(255, 136, 0);
-	border-radius: 50px;
+	border-radius: 15px;
+	height: fit-content;
 }
 .infoText {
 	width: 100%;
@@ -46,28 +48,60 @@
 	border-radius: 50px;
 }
 
+iframe {
+	margin-left: 5rem;
+	margin-top: 2rem;
+	max-width: 600vh;
+	max-height: 200vh;
+	width: 28rem;
+	height: 20rem;
+}
+
 /* iPad storlek */
 @media screen and (max-width: 56.25rem) {
 	.infoContainer {
-		max-width: 100%;
+		max-width: 31rem;
 	}
 	.mainpage {
-		max-width: 80%;
+		max-width: 28rem;
 		margin-left: 1.5rem;
+	}
+	iframe {
+		margin-left: 1.5rem;
+		margin-top: 1rem;
+		width: 28rem;
+		height: 20rem;
 	}
 }
 
 /* iPhone storlek */
 @media screen and (max-width: 37.5rem) {
 	.infoContainer {
-		max-width: 90%;
+		max-width: 11.5rem;
 	}
 	.mainpage {
+		width: 11rem;
 		margin-left: 1.5rem;
+	}
+	iframe {
+		margin: 1rem 0rem 1rem 0rem;
+		width: 12rem;
+		height: 10rem;
 	}
 }
 
 /* även mindre */
 @media screen and (max-width: 18.75rem) {
-	
+	.infoContainer {
+		max-width: 8rem;
+	}
+	.mainpage {
+		width: 8rem;
+		margin-left: 1.5rem;
+	}
+	iframe {
+		margin: 1rem 0rem 1rem 0rem;
+		width: 8rem;
+		height: 6rem;
+	}
 }

@@ -26,7 +26,7 @@
 	border-width: 4px;
 	/* margin-left: 1.5em; */
 	background-color: rgba(240, 248, 255, 0.959);
-	height: 12rem;
+	height: 13rem;
 }
 
  .foodImage {
@@ -53,6 +53,7 @@
 
 		 .imagebox {
 			width: 15.5rem;
+			height: 11rem;
 			border-radius: 15px;
 			/* margin-left: 1rem; */
 		}
@@ -72,6 +73,7 @@
 
 	 .imagebox {
 		width: 15.5rem;
+		height: 11rem;
 		border-radius: 15px;
 		/* margin-left: 2.5em; */
 	}
@@ -91,6 +93,7 @@
 	}
 	 .imagebox {
 		width: 12rem;
+		height: 8rem;
 		border-radius: 15px;
 		margin-left: 1.5rem;
 	}

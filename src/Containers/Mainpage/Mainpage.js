@@ -10,7 +10,7 @@ const mainpage = (props) => {
     return(
         <div className="mainpage">
             <div className="infoContainer">
-                <h2>Välkommen till yummie.se!</h2>
+                <h2>Välkommen till godmat.se!</h2>
             <br/>
                 <h3>Mat</h3> 
                 <br/>
@@ -19,6 +19,7 @@ const mainpage = (props) => {
                 <br/>   
                     Är det så att du letar en viss typ av rätt, kanske är det din tur att göra efterrätten, då klickar du dig vidare till typ av rätt. Där hittar du alla våra förrätter, varmrätter och efterrätter. Ibland vet man vilket typ av tillagningssätt man är sugen på, kanske vill du ha en enkel rätt som du tillagar i ugn? Klicka dig då vidare till tillagningssätt, här hittar du rätter som du steker, kokar eller till exempel grillar!
                 </p> 
+                <iframe class="siteTrailer" src="https://www.youtube.com/embed/tJlzIJaokVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
                 
             {/* <div className="search">   
