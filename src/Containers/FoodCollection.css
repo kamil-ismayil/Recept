@@ -2,9 +2,9 @@
 	display: grid;
 	grid-template-columns: 15rem 15rem 15rem;
 	grid-gap: 1rem;
-	padding: 2rem 2rem 2rem 4rem;
+	padding: 2rem 0rem 2rem 0rem;
 	/* background-color: #000000d3; */
-	justify-content: space-evenly;
+	justify-content: space-around;
 	width: 100%;
 	height: 100%;
 	margin-top: 1rem;
@@ -19,7 +19,7 @@
 }
 
  .imagebox {
-	width: 14rem;
+	width: 18rem;
 	border-radius: 15px;
 	border-color: rgb(255, 136, 0);
 	border-style: solid;
@@ -30,8 +30,8 @@
 }
 
  .foodImage {
-	width: 14rem;
-	height: 8rem;
+	width: 18rem;
+	height: 10rem;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -46,52 +46,58 @@
 
 @media screen and (max-width: 56.25rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
-		grid-template-columns: 15rem 15rem;
-		padding-left: 3rem;
+		grid-template-columns: 16rem 16rem;
+		/* padding-left: 1rem; */
 		margin-top: 1rem;
     }
 
 		 .imagebox {
-			width: 13rem;
+			width: 15.5rem;
 			border-radius: 15px;
-			/* margin-left: 1.5em; */
+			/* margin-left: 1rem; */
 		}
 		
 		.foodImage {
-			width: 13rem;
-			height: 7.5rem;
+			width: 15.5rem;
+			height: 8rem;
 		}
 }
 
 @media screen and (max-width: 37.5rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
 		grid-template-columns: 18rem;
-		padding-left: 5rem;
+		padding-left: 1rem;
 		margin-top: 1rem;
 	}
 
 	 .imagebox {
-		width: 11rem;
+		width: 15.5rem;
 		border-radius: 15px;
 		/* margin-left: 2.5em; */
 	}
 	
 	.foodImage {
-		width: 11rem;
-		height: 6rem;
+		width: 15.5rem;
+		height: 8rem;
 	}
 }
 
 @media screen and (max-width: 18.75rem) {
+	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
+		grid-template-columns: 18rem;
+		padding-left: 1rem;
+		margin-top: 1rem;
+		justify-content: center;
+	}
 	 .imagebox {
-		width: 7rem;
+		width: 12rem;
 		border-radius: 15px;
-		/* margin-left: 2.5em; */
+		margin-left: 1.5rem;
 	}
 	
 	.foodImage {
-		width: 7rem;
-		height: 3.5rem;
+		width: 12rem;
+		height: 5.5rem;
 	}
 
 }

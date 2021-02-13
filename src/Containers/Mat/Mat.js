@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import './Mat.css';
+import '../FoodCollection.css';
 import { Link } from 'react-router-dom';
 import {ReadJsonContext} from '../../Context/readJson-context';
 import Page from '../../Components/Page/Page';

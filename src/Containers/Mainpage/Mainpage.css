@@ -1,11 +1,12 @@
 .mainpage {
 	display: grid;
-	margin: 3rem 0rem 0rem 6rem;
+	margin: 2.5rem 0rem 0rem 15rem;
 	padding: 0rem;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	min-width: 30%;
-	max-width: 70%;
+	max-width: 60%;
+	height: 30rem;
 }
 
 .infoContainer {
@@ -51,7 +52,8 @@
 		max-width: 100%;
 	}
 	.mainpage {
-		max-width: 70%;
+		max-width: 80%;
+		margin-left: 1.5rem;
 	}
 }
 
@@ -61,7 +63,7 @@
 		max-width: 90%;
 	}
 	.mainpage {
-		margin-left: 3.8rem;
+		margin-left: 1.5rem;
 	}
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Layout.css";
-import Header from "../../Components/Header/Header";
 import NavigationItems from "../../Components/Navigation/NavigationItems";
 import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Mainpage from "../../Containers/Mainpage/Mainpage";

@@ -1,20 +1,25 @@
 .main-form {
-	height: 20rem;
+	height: 22rem;
   width: 25rem;
 	padding: 1rem;
 	border-radius: 15px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 	display: flex;
   flex-direction: column;
-	margin: 4rem 0rem 0rem 0rem;
+	margin: 1rem 0rem 0rem 15rem;
 	align-self: center;
 	justify-content: center;
 	background-color: rgba(240, 248, 255, 0.877);
+	border-width: 0.2rem;
+	border-color: rgb(255, 136, 0);
+	border-style: solid;
 }
 .login {
   display: flex;
   flex-direction: column;
-	
+}
+h2 {
+	margin-bottom: 1rem;
 }
 .login input {
 	display: flex;
@@ -24,21 +29,22 @@
 	border-width: 0.2rem;
 	border-color: rgb(255, 136, 0);
 	font: inherit;
-	border-radius: 50px;
+	border-radius: 15px;
 	background-color: aliceblue;
 	margin-bottom: 1rem;
 }
 
 .loginButton {
 	padding: 1rem auto;
-	max-width: 18rem;
-	max-height: 8rem;
+	width: 5rem;
+  height: 2.5rem;
 	text-align: center;
 	margin: 0.5rem 8rem;
-	border-radius: 50px;
+	border-radius: 15px;
 	background-color: rgb(255, 136, 0);
 	color: black;
 	margin-left: 0rem;
+	font-size: 1rem;
 }
 
 .loginButton:focus {
@@ -77,10 +83,26 @@
 
 /* iPad storlek */
 @media screen and (max-width: 56.25rem) {
+	.main-form {
+		margin-left: 2.5rem;
+	}
 }
 
 /* iPhone storlek */
 @media screen and (max-width: 37.5rem) {
+	.main-form {
+		width: 14rem;
+		height: 15rem;
+	}
+	h2{
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+	}
+	.loginButton{
+		height: 2rem;
+		width: 5rem;
+		font-size: 1rem;
+	}
 }
 
 /* även mindre */

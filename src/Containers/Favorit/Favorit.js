@@ -5,7 +5,7 @@ import {ReadJsonContext} from '../../Context/readJson-context';
 import {FavoritAddContext} from '../../Context/favorit-context';
 import Login from '../Login/Login';
 import Page from '../../Components/Page/Page';
-import './Favorit.css';
+import '../FoodCollection.css';
 
 const favorit = (props) => {
     const loginContext = useContext(LoginContext);
