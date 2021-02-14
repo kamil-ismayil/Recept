@@ -55,6 +55,7 @@ iframe {
 	max-height: 200vh;
 	width: 28rem;
 	height: 20rem;
+	border-radius: 10px;
 }
 
 /* iPad storlek */

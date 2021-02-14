@@ -13,7 +13,7 @@
 }
 
 .nav-menu {
-  background-color: #091036;
+  background-color: #091036d7;
   width: 15.625rem;
   height: 100vh;
   display: flex;
@@ -53,6 +53,8 @@
 
 .nav-text a:hover {
   background-color: #334191ab;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .nav-menu-items {
@@ -69,5 +71,5 @@
 }
 
 span {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }

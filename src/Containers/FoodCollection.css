@@ -3,7 +3,6 @@
 	grid-template-columns: 15rem 15rem 15rem;
 	grid-gap: 1rem;
 	padding: 2rem 0rem 2rem 0rem;
-	/* background-color: #000000d3; */
 	justify-content: space-around;
 	width: 100%;
 	height: 100%;
@@ -24,7 +23,6 @@
 	border-color: rgb(255, 136, 0);
 	border-style: solid;
 	border-width: 4px;
-	/* margin-left: 1.5em; */
 	background-color: rgba(240, 248, 255, 0.959);
 	height: 13rem;
 }
@@ -34,14 +32,19 @@
 	height: 10rem;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border-bottom: 0.2rem;
+	border-bottom-color: rgb(255, 136, 0);
+		border-bottom-style: solid;
 }
 
 .imgText {
-	color: #000;
+	display: flexbox;
+	color: #060b26;
 	text-align: center;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
-	height: fit-content;
+	text-decoration: none;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 56.25rem) {

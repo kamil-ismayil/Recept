@@ -18,7 +18,6 @@ import Favorit from '../../Containers/Favorit/Favorit';
 const layout = (props) => {
 	return (
 		<Aux class="layoutContainer">
-			{/* <Header class="header" /> */}
 			<body class="mainContainer">
 			<BrowserRouter className="routerMenu">
 					{/* <Startpage /> */}
