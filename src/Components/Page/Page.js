@@ -33,7 +33,8 @@ const page = (props) => {
 				</div>
 
 				<div class="div3"> 
-				<h2>MAPZ</h2>
+				<h2 className="mapHeader">MAPZ</h2>
+				<div id="mapId"></div>
 {/* som kind of map here */}
 				</div>
 			</section>
