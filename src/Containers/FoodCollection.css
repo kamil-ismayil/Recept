@@ -1,6 +1,6 @@
 .dessert, .drink, .popular, .smoothie, .mat, .favorit{
 	display: grid;
-	grid-template-columns: 15rem 15rem 15rem;
+	grid-template-columns: 18rem 18rem 18rem;
 	grid-gap: 1rem;
 	padding: 2rem 0rem 2rem 0rem;
 	justify-content: space-around;
@@ -47,10 +47,10 @@
   font-size: 1rem;
 }
 
+/* iPad */
 @media screen and (max-width: 56.25rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
 		grid-template-columns: 16rem 16rem;
-		/* padding-left: 1rem; */
 		margin-top: 1rem;
     }
 
@@ -58,7 +58,6 @@
 			width: 15.5rem;
 			height: 11rem;
 			border-radius: 15px;
-			/* margin-left: 1rem; */
 		}
 		
 		.foodImage {
@@ -66,7 +65,7 @@
 			height: 8rem;
 		}
 }
-
+/* iPhone */
 @media screen and (max-width: 37.5rem) {
 	.dessert, .drink, .popular,  .smoothie, .mat, .favorit {
 		grid-template-columns: 18rem;
@@ -78,7 +77,6 @@
 		width: 15.5rem;
 		height: 11rem;
 		border-radius: 15px;
-		/* margin-left: 2.5em; */
 	}
 	
 	.foodImage {
