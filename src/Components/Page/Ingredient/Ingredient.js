@@ -8,7 +8,7 @@ const ingredient = (props) => {
             <h3>Ingredienser</h3>
             <p>
                 {props.data.ingredience.map(x=>(
-                    <div>
+                    <div className="ing">
                         {x}
                     </div>
                 ))}

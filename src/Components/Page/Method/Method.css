@@ -1,4 +1,9 @@
 .method ol{
     list-style-type: decimal;
     min-height: fit-content;
+    padding-left: 1rem;
+}
+
+.method li {
+    padding-top: 1.2rem;
 }
