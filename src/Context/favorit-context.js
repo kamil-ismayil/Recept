@@ -1,21 +1,23 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, { useCallback, useEffect, useState } from "react";
 
 export const FavoritAddContext = React.createContext({
-    data: []
+	data: [],
 });
 
 const favoritContextProvider = (props) => {
-    let objArray = [];  
-   
-    const favoritAddHandler = useCallback( (info) => {
-        info!=null && objArray.push(info)
-    }, []); 
+	let objArray = [];
 
-    return (
-        <FavoritAddContext.Provider value={{data: objArray, addFavorit: favoritAddHandler}}>
-            {props.children}
-        </FavoritAddContext.Provider>
-    );
+	const favoritAddHandler = useCallback((info) => {
+		info != null && objArray.push(info);
+	}, []);
+
+	return (
+		<FavoritAddContext.Provider
+			value={{ data: objArray, addFavorit: favoritAddHandler }}
+		>
+			{props.children}
+		</FavoritAddContext.Provider>
+	);
 };
 
-export default favoritContextProvider; 
+export default favoritContextProvider;

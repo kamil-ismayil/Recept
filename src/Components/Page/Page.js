@@ -10,13 +10,12 @@ const page = (props) => {
 	return (
 		<div class="recepiesPage">
 			<section class="page">
-
 				<div class="div1">
 					<div class="data">
-						<Description 
+						<Description
 							hide={props.location.state.hide}
-							data={props.location.state.info} 
-							/>
+							data={props.location.state.info}
+						/>
 					</div>
 					<div className="image">
 						<Image data={props.location.state.info} />
@@ -32,10 +31,10 @@ const page = (props) => {
 					</div>
 				</div>
 
-				<div class="div3"> 
-				<h2 className="mapHeader">MAPZ</h2>
-				<div id="mapId"></div>
-{/* som kind of map here */}
+				<div class="div3">
+					<h2 className="mapHeader">MAPZ</h2>
+					<div id="mapId"></div>
+					{/* som kind of map here */}
 				</div>
 			</section>
 		</div>
