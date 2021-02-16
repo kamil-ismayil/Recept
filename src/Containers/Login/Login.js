@@ -16,7 +16,7 @@ const login = (props) => {
 			autoClose: 4000,
 			hideProgressBar: false,
 			closeOnClick: true,
-			pauseOnHover: false,
+			pauseOnHover: true,
 			draggable: true,
 			progress: undefined,
 			limit: 2,
@@ -34,7 +34,7 @@ const login = (props) => {
 
 	return (
 		<section className="main-form">
-			<ToastContainer limit={2} />
+			<ToastContainer limit={1} />
 			<form onSubmit={loginHandler}>
 				<div className="login">
 					<h2>Vänligen logga in för att se dina favorit recepter</h2>

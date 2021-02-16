@@ -21,6 +21,10 @@
 	border-radius: 15px;
 	height: fit-content;
 }
+
+.infoContainer h2 {
+	text-align: center;
+}
 .infoText {
 	width: 100%;
 	margin: 0rem;
