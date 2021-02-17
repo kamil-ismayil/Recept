@@ -39,6 +39,11 @@ const mainpage = (props) => {
 				></iframe>
 			</div>
 
+			{/* <div class="div3">
+					<h2 className="mapHeader">MAPZ</h2>
+					<div id="mapId"></div>
+				</div> */}
+
 			{/* <div className="search">   
                 <input type="text" value={search} 
                             onChange={event => setSearch(event.target.value)} />

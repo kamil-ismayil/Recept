@@ -30,12 +30,6 @@ const page = (props) => {
 						<Method data={props.location.state.info} />
 					</div>
 				</div>
-
-				<div class="div3">
-					<h2 className="mapHeader">MAPZ</h2>
-					<div id="mapId"></div>
-					{/* som kind of map here */}
-				</div>
 			</section>
 		</div>
 	);

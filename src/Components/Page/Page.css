@@ -57,7 +57,7 @@
 	border-width: 0.2rem;
 	border-color: rgb(255, 136, 0);
 	border-style: solid;
-	margin: 2rem 0rem 2rem 13.5rem;
+	margin: 2rem 0rem 2rem 7.5rem;
 	padding: 0.5rem;
 }
 
@@ -82,7 +82,7 @@
 	.div3 {
 		align-self: center;
 		margin: 1rem;
-		margin-left: 7rem;
+		margin-left: 1.5rem;
 		width: 30rem;
 		text-align: center;
 	}
@@ -121,7 +121,7 @@
 	.div3 {
 		width: 15rem;
 		height: 11rem;
-		margin: 1rem 0rem 0rem 0rem;
+		margin: 1rem 0rem 0rem -0.2rem;
 		align-self: flex-start;
 	}
 	#mapId {
@@ -157,13 +157,13 @@
 		width: 17.5rem;
 	}
 	.div3 {
-		width: 17rem;
-		height: 14rem;
+		width: 11rem;
+		height: 8rem;
 		margin: 1rem 0rem 0rem 0rem;
 	}
 	#mapId {
-		height: 19rem;
-		width: 29rem;
+		height: 7rem;
+		width: 10rem;
 		background-color: blueviolet;
 		align-self: center;
 	}
