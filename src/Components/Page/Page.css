@@ -65,13 +65,6 @@
 	text-align: center;
 }
 
-#mapId {
-	height: 19rem;
-	width: 29rem;
-	background-color: blueviolet;
-	align-self: center;
-	border-radius: 15px;
-}
 
 /* iPad storlek */
 @media screen and (max-width: 56.25rem) {
@@ -79,19 +72,7 @@
 	.div2 {
 		margin-left: 0.5rem;
 	}
-	.div3 {
-		align-self: center;
-		margin: 1rem;
-		margin-left: 1.5rem;
-		width: 30rem;
-		text-align: center;
-	}
-	#mapId {
-		height: 19rem;
-		width: 29rem;
-		background-color: blueviolet;
-		align-self: center;
-	}
+
 	.recepieImage {
 		max-width: 15rem;
 		max-height: 8rem;
@@ -118,18 +99,7 @@
 		padding: 0rem;
 		width: 17.5rem;
 	}
-	.div3 {
-		width: 15rem;
-		height: 11rem;
-		margin: 1rem 0rem 0rem -0.2rem;
-		align-self: flex-start;
-	}
-	#mapId {
-		height: 9rem;
-		width: 14rem;
-		background-color: blueviolet;
-		align-self: center;
-	}
+	
 	.recepieImage {
 		max-width: 14rem;
 		max-height: 9rem;
@@ -156,17 +126,7 @@
 		padding: 0rem;
 		width: 17.5rem;
 	}
-	.div3 {
-		width: 11rem;
-		height: 8rem;
-		margin: 1rem 0rem 0rem 0rem;
-	}
-	#mapId {
-		height: 7rem;
-		width: 10rem;
-		background-color: blueviolet;
-		align-self: center;
-	}
+
 	.recepieImage {
 		max-width: 14rem;
 		max-height: 9rem;

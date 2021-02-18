@@ -30,6 +30,7 @@ const login = (props) => {
 		if (!loginContext.login(enteredUserName, enteredPassword)) {
 			notify();
 		}
+		console.log(enteredUserName, enteredPassword);
 	};
 
 	return (

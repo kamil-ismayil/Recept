@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Layout from "../../Hoc/Layout/Layout";
 import "./Mainpage.css";
+import Map from "../../Components/map";
 
 const mainpage = (props) => {
 	const [search, setSearch] = useState("Sök recept");
@@ -39,10 +40,44 @@ const mainpage = (props) => {
 				></iframe>
 			</div>
 
-			{/* <div class="div3">
-					<h2 className="mapHeader">MAPZ</h2>
-					<div id="mapId"></div>
-				</div> */}
+			<div class="div3">
+				<h2 className="mapHeader">Hitta oss</h2>
+
+				<iframe
+					id="myMap"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.5776538465543!2d11.970964015621677!3d57.70664498112075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff364fa372cc3%3A0xcc09d68e87a841dc!2sWarhammer%20-%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1613648150935!5m2!1ssv!2sse"
+					frameborder="0"
+					allowfullscreen=""
+					aria-hidden="false"
+					tabindex="0"
+				></iframe>
+				<h3>Kontakta oss</h3>
+				<p>Email: <a href = "mailto: godmat@hotfood.se">godmat@hotfood.se</a> <br/> Telefon: 031-123 45 6</p>
+				
+				{/* Fungerar dock "for development purposes only"
+				<Map
+        id="myMap"
+        options={{
+          center: { lat: 57.708870, lng: 11.974560 },
+          zoom: 13
+        }}
+        onMapLoad={map => {
+          var marker = new window.google.maps.Marker({
+            position: { lat: 57.708870, lng: 11.974560 },
+            map: map,
+            title: 'Hello Istanbul!'
+          });
+        }}
+      /> */}
+
+				{/* <div class="mapouter">
+						<div class="gmap_canvas">
+							<iframe width="464" height="304" id="gmap_canvas" src="https://maps.google.com/maps?q=gothenburg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+								<a href="https://www.embedgooglemap.org">embed google maps</a>
+								</div>
+								<style>.mapouter{position:relative;text-align:right;height:304px;width:464px;}.gmap_canvas {overflow:hidden;background:none!important;height:304px;width:464px;}</style>
+								</div> */}
+			</div>
 
 			{/* <div className="search">   
                 <input type="text" value={search} 

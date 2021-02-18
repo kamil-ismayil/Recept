@@ -5,6 +5,7 @@ import Method from "./Method/Method";
 import Description from "./Description/Description";
 import "./Page.css";
 import Navbar from "../Navbar/Navbar";
+import Map from "../map"
 
 const page = (props) => {
 	return (
@@ -30,6 +31,7 @@ const page = (props) => {
 						<Method data={props.location.state.info} />
 					</div>
 				</div>
+
 			</section>
 		</div>
 	);
