@@ -70,7 +70,8 @@ const mainpage = (props) => {
         }}
       /> */}
 
-				{/* <div class="mapouter">
+				{/* "Hampus och Hermans lösning"
+				<div class="mapouter">
 						<div class="gmap_canvas">
 							<iframe width="464" height="304" id="gmap_canvas" src="https://maps.google.com/maps?q=gothenburg&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 								<a href="https://www.embedgooglemap.org">embed google maps</a>
@@ -79,7 +80,8 @@ const mainpage = (props) => {
 								</div> */}
 			</div>
 
-			{/* <div className="search">   
+			{/* "en planerad sökfunktion som vi inte gick vidare med"
+			<div className="search">   
                 <input type="text" value={search} 
                             onChange={event => setSearch(event.target.value)} />
             </div>                  */}
